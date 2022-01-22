@@ -1,0 +1,482 @@
+2022-01-20 17:06:09,726 Connection to database has been established successfully
+2022-01-20 17:06:09,732 Started server process [10004]
+2022-01-20 17:06:09,733 Waiting for application startup.
+2022-01-20 17:06:09,735 Application startup complete.
+2022-01-20 17:08:56,947 Connection to database has been established successfully
+2022-01-20 17:08:56,949 Started server process [19824]
+2022-01-20 17:08:56,950 Waiting for application startup.
+2022-01-20 17:08:56,950 Application startup complete.
+2022-01-20 17:09:10,284 error caught :1146 (42S02): Table 'online_book_store.online_book_store' doesn't exist
+2022-01-20 17:10:12,082 Connection to database has been established successfully
+2022-01-20 17:10:12,084 Started server process [16040]
+2022-01-20 17:10:12,087 Waiting for application startup.
+2022-01-20 17:10:12,088 Application startup complete.
+2022-01-20 17:10:14,628 error caught :1146 (42S02): Table 'online_book_store.users' doesn't exist
+2022-01-20 17:10:21,183 error caught :1146 (42S02): Table 'online_book_store.users' doesn't exist
+2022-01-20 17:10:28,204 error caught :1146 (42S02): Table 'online_book_store.users' doesn't exist
+2022-01-20 17:10:54,805 Connection to database has been established successfully
+2022-01-20 17:10:54,807 Started server process [14200]
+2022-01-20 17:10:54,808 Waiting for application startup.
+2022-01-20 17:10:54,811 Application startup complete.
+2022-01-20 17:10:54,837 error caught :table  is not present in the database
+2022-01-20 17:11:25,840 error caught :table  is not present in the database
+2022-01-20 17:15:17,947 error caught :table  is not present in the database
+2022-01-20 17:15:23,759 error caught :table  is not present in the database
+2022-01-20 17:16:14,147 Connection to database has been established successfully
+2022-01-20 17:16:14,149 Started server process [20136]
+2022-01-20 17:16:14,150 Waiting for application startup.
+2022-01-20 17:16:14,152 Application startup complete.
+2022-01-20 17:16:19,695 Successfully retrieved  Employee Details table
+2022-01-20 17:18:15,699 Connection to database has been established successfully
+2022-01-20 17:18:15,704 Started server process [20600]
+2022-01-20 17:18:15,705 Waiting for application startup.
+2022-01-20 17:18:15,710 Application startup complete.
+2022-01-20 17:18:21,283 Successfully retrieved all users Details 
+2022-01-20 17:24:23,546 Connection to database has been established successfully
+2022-01-20 17:24:23,549 Started server process [17280]
+2022-01-20 17:24:23,565 Waiting for application startup.
+2022-01-20 17:24:23,569 Application startup complete.
+2022-01-20 17:24:51,191 Connection to database has been established successfully
+2022-01-20 17:24:51,193 Started server process [7352]
+2022-01-20 17:24:51,193 Waiting for application startup.
+2022-01-20 17:24:51,195 Application startup complete.
+2022-01-20 17:28:26,498 Connection to database has been established successfully
+2022-01-20 17:28:26,501 Started server process [10112]
+2022-01-20 17:28:26,502 Waiting for application startup.
+2022-01-20 17:28:26,512 Application startup complete.
+2022-01-20 17:31:13,973 Connection to database has been established successfully
+2022-01-20 17:31:13,979 Started server process [11620]
+2022-01-20 17:31:13,979 Waiting for application startup.
+2022-01-20 17:31:13,981 Application startup complete.
+2022-01-20 17:34:02,643 Connection to database has been established successfully
+2022-01-20 17:34:02,656 Started server process [16940]
+2022-01-20 17:34:02,658 Waiting for application startup.
+2022-01-20 17:34:02,661 Application startup complete.
+2022-01-20 17:40:17,042 Connection to database has been established successfully
+2022-01-20 17:40:17,048 Started server process [15508]
+2022-01-20 17:40:17,048 Waiting for application startup.
+2022-01-20 17:40:17,049 Application startup complete.
+2022-01-20 17:40:32,048 Successfully retrieved  user Details
+2022-01-20 17:49:31,242 Connection to database has been established successfully
+2022-01-20 17:49:31,247 Started server process [20496]
+2022-01-20 17:49:31,247 Waiting for application startup.
+2022-01-20 17:49:31,249 Application startup complete.
+2022-01-20 17:51:57,480 Connection to database has been established successfully
+2022-01-20 17:51:57,485 Started server process [20696]
+2022-01-20 17:51:57,487 Waiting for application startup.
+2022-01-20 17:51:57,494 Application startup complete.
+2022-01-20 17:53:06,500 error caught :not enough arguments for format string
+2022-01-20 17:55:50,756 Connection to database has been established successfully
+2022-01-20 17:55:50,760 Started server process [15384]
+2022-01-20 17:55:50,760 Waiting for application startup.
+2022-01-20 17:55:50,762 Application startup complete.
+2022-01-20 17:59:05,631 Connection to database has been established successfully
+2022-01-20 17:59:05,635 Started server process [4572]
+2022-01-20 17:59:05,636 Waiting for application startup.
+2022-01-20 17:59:05,637 Application startup complete.
+2022-01-20 17:59:16,067 error caught :not all arguments converted during string formatting
+2022-01-20 18:03:07,634 Connection to database has been established successfully
+2022-01-20 18:03:07,638 Started server process [10800]
+2022-01-20 18:03:07,638 Waiting for application startup.
+2022-01-20 18:03:07,639 Application startup complete.
+2022-01-20 18:03:09,047 Successfully added Employee Details into table
+2022-01-20 18:30:05,446 Connection to database has been established successfully
+2022-01-20 18:30:05,451 Started server process [20808]
+2022-01-20 18:30:05,451 Waiting for application startup.
+2022-01-20 18:30:05,453 Application startup complete.
+2022-01-20 18:32:21,825 Shutting down
+2022-01-20 18:32:21,936 Waiting for application shutdown.
+2022-01-20 18:32:21,936 Application shutdown complete.
+2022-01-20 18:32:21,938 Finished server process [20808]
+2022-01-20 20:15:42,628 Connection to database has been established successfully
+2022-01-20 20:16:11,550 Connection to database has been established successfully
+2022-01-20 20:17:44,549 Connection to database has been established successfully
+2022-01-20 20:17:44,560 Started server process [3104]
+2022-01-20 20:17:44,562 Waiting for application startup.
+2022-01-20 20:17:44,563 Application startup complete.
+2022-01-20 20:20:21,168 Successfully added one user Details
+2022-01-20 20:20:21,169 error caught :module 'jwt' has no attribute 'encode'
+2022-01-20 20:22:28,853 Successfully retrieved all users Details 
+2022-01-20 20:22:46,783 Successfully retrieved  user Details
+2022-01-20 20:23:31,719 Connection to database has been established successfully
+2022-01-20 20:23:31,730 Started server process [20348]
+2022-01-20 20:23:31,730 Waiting for application startup.
+2022-01-20 20:23:31,731 Application startup complete.
+2022-01-20 20:23:50,698 Successfully retrieved all users Details 
+2022-01-20 20:24:24,421 Connection to database has been established successfully
+2022-01-20 20:24:24,454 Started server process [13452]
+2022-01-20 20:24:24,456 Waiting for application startup.
+2022-01-20 20:24:24,462 Application startup complete.
+2022-01-20 20:24:30,778 Successfully retrieved all users Details 
+2022-01-20 20:24:47,431 Connection to database has been established successfully
+2022-01-20 20:24:47,442 Started server process [20308]
+2022-01-20 20:24:47,443 Waiting for application startup.
+2022-01-20 20:24:47,446 Application startup complete.
+2022-01-20 20:24:53,492 Successfully retrieved all users Details 
+2022-01-20 20:26:16,903 Successfully added one user Details
+2022-01-20 20:26:16,903 error caught :module 'jwt' has no attribute 'encode'
+2022-01-20 20:30:54,344 Shutting down
+2022-01-20 20:30:54,456 Waiting for application shutdown.
+2022-01-20 20:30:54,456 Application shutdown complete.
+2022-01-20 20:30:54,458 Finished server process [20308]
+2022-01-20 20:31:26,747 Connection to database has been established successfully
+2022-01-20 20:31:37,633 Connection to database has been established successfully
+2022-01-20 20:31:37,665 Started server process [10692]
+2022-01-20 20:31:37,666 Waiting for application startup.
+2022-01-20 20:31:37,668 Application startup complete.
+2022-01-20 20:31:53,149 error caught :1062 (23000): Duplicate entry '627' for key 'user.PRIMARY'
+2022-01-20 20:32:11,708 Successfully added one user Details
+2022-01-20 20:46:42,586 Connection to database has been established successfully
+2022-01-20 20:46:42,634 Started server process [19432]
+2022-01-20 20:46:42,635 Waiting for application startup.
+2022-01-20 20:46:42,638 Application startup complete.
+2022-01-20 20:46:52,046 Successfully retrieved all users Details 
+2022-01-20 20:49:09,012 Connection to database has been established successfully
+2022-01-20 20:49:09,044 Started server process [16700]
+2022-01-20 20:49:09,045 Waiting for application startup.
+2022-01-20 20:49:09,049 Application startup complete.
+2022-01-20 20:50:05,271 error caught :'User' object has no attribute 'user_id'
+2022-01-20 20:50:59,401 Connection to database has been established successfully
+2022-01-20 20:50:59,460 Started server process [1908]
+2022-01-20 20:50:59,462 Waiting for application startup.
+2022-01-20 20:50:59,468 Application startup complete.
+2022-01-20 20:51:51,690 Connection to database has been established successfully
+2022-01-20 20:51:51,727 Started server process [20088]
+2022-01-20 20:51:51,727 Waiting for application startup.
+2022-01-20 20:51:51,729 Application startup complete.
+2022-01-20 20:51:53,552 Successfully added one user Details
+2022-01-20 20:51:53,553 error caught :'User' object has no attribute 'user_id'
+2022-01-20 20:52:19,447 Successfully added one user Details
+2022-01-20 20:52:19,447 error caught :'User' object has no attribute 'user_id'
+2022-01-20 21:02:16,753 Connection to database has been established successfully
+2022-01-20 21:02:16,791 Started server process [20484]
+2022-01-20 21:02:16,792 Waiting for application startup.
+2022-01-20 21:02:16,797 Application startup complete.
+2022-01-20 21:02:19,049 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:05:16,906 Connection to database has been established successfully
+2022-01-20 21:05:16,969 Started server process [16500]
+2022-01-20 21:05:16,971 Waiting for application startup.
+2022-01-20 21:05:16,978 Application startup complete.
+2022-01-20 21:06:17,387 Connection to database has been established successfully
+2022-01-20 21:06:17,407 Started server process [17980]
+2022-01-20 21:06:17,407 Waiting for application startup.
+2022-01-20 21:06:17,412 Application startup complete.
+2022-01-20 21:06:25,561 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:08:17,836 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:08:30,518 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:08:43,770 Shutting down
+2022-01-20 21:08:43,877 Waiting for application shutdown.
+2022-01-20 21:08:43,877 Application shutdown complete.
+2022-01-20 21:08:46,154 Connection to database has been established successfully
+2022-01-20 21:08:46,169 Started server process [17832]
+2022-01-20 21:08:46,169 Waiting for application startup.
+2022-01-20 21:08:46,171 Application startup complete.
+2022-01-20 21:08:51,725 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:09:25,411 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:09:41,084 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:10:44,499 Connection to database has been established successfully
+2022-01-20 21:10:44,546 Started server process [18064]
+2022-01-20 21:10:44,551 Waiting for application startup.
+2022-01-20 21:10:44,554 Application startup complete.
+2022-01-20 21:10:47,025 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:10:51,234 error caught :1054 (42S22): Unknown column 'user_id' in 'field list'
+2022-01-20 21:13:55,473 Connection to database has been established successfully
+2022-01-20 21:13:55,529 Started server process [9880]
+2022-01-20 21:13:55,530 Waiting for application startup.
+2022-01-20 21:13:55,532 Application startup complete.
+2022-01-20 21:14:07,046 error caught :Commands out of sync; you can't run this command now
+2022-01-20 21:21:28,552 Connection to database has been established successfully
+2022-01-20 21:21:28,567 Started server process [13180]
+2022-01-20 21:21:28,567 Waiting for application startup.
+2022-01-20 21:21:28,569 Application startup complete.
+2022-01-20 21:21:31,507 Successfully added one user Details
+2022-01-20 21:25:22,865 Successfully added one user Details
+2022-01-20 21:26:47,171 Successfully added one user Details
+2022-01-20 21:27:15,160 Successfully added one user Details
+2022-01-20 21:40:47,009 Successfully retrieved  user Details
+2022-01-20 21:49:12,758 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-20 21:51:16,968 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-20 22:04:30,320 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-20 22:04:46,878 Shutting down
+2022-01-20 22:04:55,174 Connection to database has been established successfully
+2022-01-20 22:04:55,242 Started server process [7448]
+2022-01-20 22:04:55,243 Waiting for application startup.
+2022-01-20 22:04:55,248 Application startup complete.
+2022-01-20 22:05:01,797 Successfully added one user Details
+2022-01-20 22:09:04,886 Connection to database has been established successfully
+2022-01-20 22:09:04,936 Started server process [18880]
+2022-01-20 22:09:04,938 Waiting for application startup.
+2022-01-20 22:09:04,945 Application startup complete.
+2022-01-21 06:47:05,025 Connection to database has been established successfully
+2022-01-21 06:47:05,059 Started server process [17664]
+2022-01-21 06:47:05,060 Waiting for application startup.
+2022-01-21 06:47:05,064 Application startup complete.
+2022-01-21 06:48:58,263 Connection to database has been established successfully
+2022-01-21 06:48:58,285 Started server process [16780]
+2022-01-21 06:48:58,286 Waiting for application startup.
+2022-01-21 06:48:58,289 Application startup complete.
+2022-01-21 06:53:01,099 Connection to database has been established successfully
+2022-01-21 06:53:01,118 Started server process [7028]
+2022-01-21 06:53:01,119 Waiting for application startup.
+2022-01-21 06:53:01,120 Application startup complete.
+2022-01-21 06:57:45,035 Connection to database has been established successfully
+2022-01-21 06:57:45,049 Started server process [7384]
+2022-01-21 06:57:45,049 Waiting for application startup.
+2022-01-21 06:57:45,050 Application startup complete.
+2022-01-21 06:57:59,287 Successfully retrieved  user Details
+2022-01-21 06:58:25,484 updated gender of Employee_id 1 
+2022-01-21 06:59:21,457 updated gender of Employee_id 1 
+2022-01-21 07:02:41,837 Connection to database has been established successfully
+2022-01-21 07:02:41,896 Started server process [300]
+2022-01-21 07:02:41,896 Waiting for application startup.
+2022-01-21 07:02:41,898 Application startup complete.
+2022-01-21 07:06:05,298 Connection to database has been established successfully
+2022-01-21 07:06:05,317 Started server process [11344]
+2022-01-21 07:06:05,317 Waiting for application startup.
+2022-01-21 07:06:05,319 Application startup complete.
+2022-01-21 07:07:44,307 Connection to database has been established successfully
+2022-01-21 07:07:44,325 Started server process [10296]
+2022-01-21 07:07:44,326 Waiting for application startup.
+2022-01-21 07:07:44,328 Application startup complete.
+2022-01-21 07:24:56,576 Connection to database has been established successfully
+2022-01-21 07:24:56,597 Started server process [18212]
+2022-01-21 07:24:56,597 Waiting for application startup.
+2022-01-21 07:24:56,599 Application startup complete.
+2022-01-21 07:25:40,670 Connection to database has been established successfully
+2022-01-21 07:25:40,686 Started server process [16372]
+2022-01-21 07:25:40,687 Waiting for application startup.
+2022-01-21 07:25:40,688 Application startup complete.
+2022-01-21 07:26:30,401 Successfully added one user Details
+2022-01-21 07:26:54,623 error caught :%d format: a number is required, not list
+2022-01-21 07:27:52,858 error caught :Invalid crypto padding
+2022-01-21 07:28:11,390 error caught :%d format: a number is required, not list
+2022-01-21 07:32:15,291 Connection to database has been established successfully
+2022-01-21 07:32:15,306 Started server process [14612]
+2022-01-21 07:32:15,307 Waiting for application startup.
+2022-01-21 07:32:15,308 Application startup complete.
+2022-01-21 07:32:16,542 error caught :%d format: a number is required, not list
+2022-01-21 07:32:19,313 error caught :%d format: a number is required, not list
+2022-01-21 07:34:11,173 Connection to database has been established successfully
+2022-01-21 07:34:11,208 Started server process [14540]
+2022-01-21 07:34:11,208 Waiting for application startup.
+2022-01-21 07:34:11,210 Application startup complete.
+2022-01-21 07:34:11,638 error caught :%d format: a number is required, not list
+2022-01-21 07:35:03,649 Connection to database has been established successfully
+2022-01-21 07:35:04,055 Connection to database has been established successfully
+2022-01-21 07:35:04,073 Started server process [10756]
+2022-01-21 07:35:04,074 Waiting for application startup.
+2022-01-21 07:35:04,075 Application startup complete.
+2022-01-21 07:46:13,205 Connection to database has been established successfully
+2022-01-21 07:46:13,222 Started server process [9504]
+2022-01-21 07:46:13,223 Waiting for application startup.
+2022-01-21 07:46:13,224 Application startup complete.
+2022-01-21 07:48:10,626 Connection to database has been established successfully
+2022-01-21 07:48:10,644 Started server process [8248]
+2022-01-21 07:48:10,644 Waiting for application startup.
+2022-01-21 07:48:10,646 Application startup complete.
+2022-01-21 07:49:17,932 Connection to database has been established successfully
+2022-01-21 07:49:17,966 Started server process [16484]
+2022-01-21 07:49:17,967 Waiting for application startup.
+2022-01-21 07:49:17,975 Application startup complete.
+2022-01-21 07:49:21,097 error caught :%d format: a number is required, not list
+2022-01-21 07:50:35,982 Connection to database has been established successfully
+2022-01-21 07:50:36,012 Started server process [4344]
+2022-01-21 07:50:36,013 Waiting for application startup.
+2022-01-21 07:50:36,019 Application startup complete.
+2022-01-21 07:50:37,250 error caught :%d format: a number is required, not list
+2022-01-21 07:50:39,074 error caught :%d format: a number is required, not list
+2022-01-21 07:51:27,353 Connection to database has been established successfully
+2022-01-21 07:51:27,396 Started server process [19492]
+2022-01-21 07:51:27,402 Waiting for application startup.
+2022-01-21 07:51:27,419 Application startup complete.
+2022-01-21 07:51:27,819 error caught :%d format: a number is required, not list
+2022-01-21 07:52:20,264 Connection to database has been established successfully
+2022-01-21 07:52:20,282 Started server process [16148]
+2022-01-21 07:52:20,283 Waiting for application startup.
+2022-01-21 07:52:20,288 Application startup complete.
+2022-01-21 07:52:21,438 error caught :%d format: a number is required, not list
+2022-01-21 07:52:22,796 error caught :%d format: a number is required, not list
+2022-01-21 07:52:23,547 error caught :%d format: a number is required, not list
+2022-01-21 07:57:11,452 Connection to database has been established successfully
+2022-01-21 07:57:11,471 Started server process [4908]
+2022-01-21 07:57:11,472 Waiting for application startup.
+2022-01-21 07:57:11,475 Application startup complete.
+2022-01-21 07:58:26,342 Connection to database has been established successfully
+2022-01-21 07:58:26,386 Started server process [19116]
+2022-01-21 07:58:26,386 Waiting for application startup.
+2022-01-21 07:58:26,393 Application startup complete.
+2022-01-21 08:06:26,773 Connection to database has been established successfully
+2022-01-21 08:06:26,804 Started server process [1720]
+2022-01-21 08:06:26,806 Waiting for application startup.
+2022-01-21 08:06:26,809 Application startup complete.
+2022-01-21 08:06:30,570 error caught :'list' object has no attribute 'id'
+2022-01-21 08:06:38,163 Shutting down
+2022-01-21 08:06:42,446 Connection to database has been established successfully
+2022-01-21 08:06:42,472 Started server process [4908]
+2022-01-21 08:06:42,473 Waiting for application startup.
+2022-01-21 08:06:42,474 Application startup complete.
+2022-01-21 08:07:30,680 Connection to database has been established successfully
+2022-01-21 08:07:30,698 Started server process [4940]
+2022-01-21 08:07:30,699 Waiting for application startup.
+2022-01-21 08:07:30,700 Application startup complete.
+2022-01-21 08:07:35,045 Connection to database has been established successfully
+2022-01-21 08:07:35,065 Started server process [14740]
+2022-01-21 08:07:35,065 Waiting for application startup.
+2022-01-21 08:07:35,067 Application startup complete.
+2022-01-21 08:07:58,521 error caught :%d format: a number is required, not list
+2022-01-21 08:18:14,279 Connection to database has been established successfully
+2022-01-21 08:18:14,298 Started server process [11224]
+2022-01-21 08:18:14,298 Waiting for application startup.
+2022-01-21 08:18:14,300 Application startup complete.
+2022-01-21 08:26:12,259 Connection to database has been established successfully
+2022-01-21 08:26:12,278 Started server process [20276]
+2022-01-21 08:26:12,279 Waiting for application startup.
+2022-01-21 08:26:12,281 Application startup complete.
+2022-01-21 08:27:00,890 Successfully added one user Details
+2022-01-21 08:27:00,890 error caught :Object of type CMySQLCursorDict is not JSON serializable
+2022-01-21 08:53:37,209 Connection to database has been established successfully
+2022-01-21 08:53:37,251 Started server process [19652]
+2022-01-21 08:53:37,252 Waiting for application startup.
+2022-01-21 08:53:37,260 Application startup complete.
+2022-01-21 08:53:39,502 Successfully added one user Details
+2022-01-21 08:54:05,829 error caught :%d format: a number is required, not list
+2022-01-21 08:56:02,934 Connection to database has been established successfully
+2022-01-21 08:56:02,963 Started server process [15592]
+2022-01-21 08:56:02,963 Waiting for application startup.
+2022-01-21 08:56:02,969 Application startup complete.
+2022-01-21 08:56:04,263 error caught :1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'user_id': 3}, {'user_id': 4}]' at line 1
+2022-01-21 08:57:29,731 deleted user by using user_id 3
+2022-01-21 08:57:42,144 error caught :1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'user_id': 3}, {'user_id': 4}]' at line 1
+2022-01-21 08:57:52,327 Shutting down
+2022-01-21 08:57:52,437 Waiting for application shutdown.
+2022-01-21 08:57:52,438 Application shutdown complete.
+2022-01-21 08:57:52,439 Finished server process [15592]
+2022-01-21 08:57:55,409 Connection to database has been established successfully
+2022-01-21 08:57:55,445 Started server process [12484]
+2022-01-21 08:57:55,446 Waiting for application startup.
+2022-01-21 08:57:55,449 Application startup complete.
+2022-01-21 08:58:17,626 error caught :1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'user_id': 3}, {'user_id': 4}]' at line 1
+2022-01-21 08:59:20,624 Shutting down
+2022-01-21 08:59:20,733 Waiting for application shutdown.
+2022-01-21 08:59:20,734 Application shutdown complete.
+2022-01-21 08:59:20,736 Finished server process [12484]
+2022-01-21 08:59:58,831 Connection to database has been established successfully
+2022-01-21 08:59:58,869 Started server process [9252]
+2022-01-21 08:59:58,870 Waiting for application startup.
+2022-01-21 08:59:58,873 Application startup complete.
+2022-01-21 09:00:47,179 Successfully added one user Details
+2022-01-21 09:01:11,999 error caught :1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[{'user_id': 5}]' at line 1
+2022-01-21 09:02:12,518 Connection to database has been established successfully
+2022-01-21 09:02:12,548 Started server process [8240]
+2022-01-21 09:02:12,548 Waiting for application startup.
+2022-01-21 09:02:12,551 Application startup complete.
+2022-01-21 09:02:17,024 Shutting down
+2022-01-21 09:02:17,132 Waiting for application shutdown.
+2022-01-21 09:02:17,134 Application shutdown complete.
+2022-01-21 09:02:17,138 Finished server process [8240]
+2022-01-21 09:02:20,424 Connection to database has been established successfully
+2022-01-21 09:02:20,460 Started server process [18300]
+2022-01-21 09:02:20,461 Waiting for application startup.
+2022-01-21 09:02:20,464 Application startup complete.
+2022-01-21 09:02:42,237 error caught :%d format: a number is required, not list
+2022-01-21 09:10:19,852 Connection to database has been established successfully
+2022-01-21 09:10:19,886 Started server process [19492]
+2022-01-21 09:10:19,887 Waiting for application startup.
+2022-01-21 09:10:19,890 Application startup complete.
+2022-01-21 09:10:25,292 error caught :%d format: a number is required, not list
+2022-01-21 09:10:26,797 error caught :%d format: a number is required, not list
+2022-01-21 09:10:47,761 error caught :%d format: a number is required, not list
+2022-01-21 09:12:00,534 Shutting down
+2022-01-21 09:12:00,640 Waiting for application shutdown.
+2022-01-21 09:12:00,642 Application shutdown complete.
+2022-01-21 09:12:00,648 Finished server process [19492]
+2022-01-21 09:12:03,575 Connection to database has been established successfully
+2022-01-21 09:12:03,606 Started server process [8064]
+2022-01-21 09:12:03,609 Waiting for application startup.
+2022-01-21 09:12:03,614 Application startup complete.
+2022-01-21 09:12:55,019 Successfully added one user Details
+2022-01-21 09:13:14,075 error caught :%d format: a number is required, not dict
+2022-01-21 09:13:38,489 Connection to database has been established successfully
+2022-01-21 09:13:38,533 Started server process [2264]
+2022-01-21 09:13:38,534 Waiting for application startup.
+2022-01-21 09:13:38,536 Application startup complete.
+2022-01-21 09:13:39,525 error caught :%d format: a number is required, not dict
+2022-01-21 09:14:22,839 error caught :%d format: a number is required, not dict
+2022-01-21 09:15:19,274 Connection to database has been established successfully
+2022-01-21 09:15:19,308 Started server process [20640]
+2022-01-21 09:15:19,309 Waiting for application startup.
+2022-01-21 09:15:19,311 Application startup complete.
+2022-01-21 09:16:42,542 Successfully added one user Details
+2022-01-21 09:16:59,512 error caught :%d format: a number is required, not dict
+2022-01-21 09:18:35,534 Connection to database has been established successfully
+2022-01-21 09:18:35,614 Started server process [16824]
+2022-01-21 09:18:35,616 Waiting for application startup.
+2022-01-21 09:18:35,623 Application startup complete.
+2022-01-21 09:18:57,064 error caught :%d format: a number is required, not dict
+2022-01-21 09:19:16,699 Connection to database has been established successfully
+2022-01-21 09:19:16,734 Started server process [3836]
+2022-01-21 09:19:16,734 Waiting for application startup.
+2022-01-21 09:19:16,736 Application startup complete.
+2022-01-21 09:19:18,081 error caught :%d format: a number is required, not dict
+2022-01-21 09:19:20,058 error caught :%d format: a number is required, not dict
+2022-01-21 09:21:41,845 Connection to database has been established successfully
+2022-01-21 09:21:41,874 Started server process [17764]
+2022-01-21 09:21:41,875 Waiting for application startup.
+2022-01-21 09:21:41,876 Application startup complete.
+2022-01-21 09:21:54,230 error caught :%d format: a number is required, not dict
+2022-01-21 09:22:38,958 Connection to database has been established successfully
+2022-01-21 09:22:38,990 Started server process [8496]
+2022-01-21 09:22:38,991 Waiting for application startup.
+2022-01-21 09:22:38,992 Application startup complete.
+2022-01-21 09:27:44,304 Connection to database has been established successfully
+2022-01-21 09:27:44,378 Started server process [12856]
+2022-01-21 09:27:44,380 Waiting for application startup.
+2022-01-21 09:27:44,385 Application startup complete.
+2022-01-21 09:28:13,458 Successfully added one user Details
+2022-01-21 09:30:50,743 Connection to database has been established successfully
+2022-01-21 09:30:50,781 Started server process [2584]
+2022-01-21 09:30:50,783 Waiting for application startup.
+2022-01-21 09:30:50,787 Application startup complete.
+2022-01-21 09:31:17,436 error caught :%d format: a number is required, not list
+2022-01-21 09:31:35,483 Shutting down
+2022-01-21 09:31:35,592 Waiting for application shutdown.
+2022-01-21 09:31:35,593 Application shutdown complete.
+2022-01-21 09:31:35,598 Finished server process [2584]
+2022-01-21 09:31:38,946 Connection to database has been established successfully
+2022-01-21 09:31:39,027 Started server process [9480]
+2022-01-21 09:31:39,029 Waiting for application startup.
+2022-01-21 09:31:39,039 Application startup complete.
+2022-01-21 09:31:57,633 error caught :%d format: a number is required, not list
+2022-01-21 09:34:04,467 Connection to database has been established successfully
+2022-01-21 09:34:32,158 Connection to database has been established successfully
+2022-01-21 09:34:34,314 Connection to database has been established successfully
+2022-01-21 09:35:08,537 Connection to database has been established successfully
+2022-01-21 09:35:09,787 Connection to database has been established successfully
+2022-01-21 09:35:09,817 Started server process [17040]
+2022-01-21 09:35:09,817 Waiting for application startup.
+2022-01-21 09:35:09,820 Application startup complete.
+2022-01-21 09:35:38,343 Connection to database has been established successfully
+2022-01-21 09:35:39,481 Connection to database has been established successfully
+2022-01-21 09:35:39,535 Started server process [14844]
+2022-01-21 09:35:39,536 Waiting for application startup.
+2022-01-21 09:35:39,539 Application startup complete.
+2022-01-21 09:36:40,320 Connection to database has been established successfully
+2022-01-21 09:36:41,382 Connection to database has been established successfully
+2022-01-21 09:36:51,909 Connection to database has been established successfully
+2022-01-21 09:36:52,968 Connection to database has been established successfully
+2022-01-21 09:37:08,769 Connection to database has been established successfully
+2022-01-21 09:37:10,893 Connection to database has been established successfully
+2022-01-21 09:37:39,371 Connection to database has been established successfully
+2022-01-21 09:37:40,899 Connection to database has been established successfully
+2022-01-21 09:37:40,930 Started server process [16300]
+2022-01-21 09:37:40,931 Waiting for application startup.
+2022-01-21 09:37:40,934 Application startup complete.
+2022-01-21 09:39:04,598 Successfully added one user Details
+2022-01-21 09:40:04,219 Connection to database has been established successfully
+2022-01-21 09:40:04,251 Started server process [5716]
+2022-01-21 09:40:04,252 Waiting for application startup.
+2022-01-21 09:40:04,255 Application startup complete.
+2022-01-21 11:10:50,726 Connection to database has been established successfully
+2022-01-21 11:10:50,772 Started server process [15372]
+2022-01-21 11:10:50,773 Waiting for application startup.
+2022-01-21 11:10:50,782 Application startup complete.
