@@ -710,3 +710,193 @@
 2022-01-23 18:58:15,848 Started server process [18260]
 2022-01-23 18:58:15,848 Waiting for application startup.
 2022-01-23 18:58:15,848 Application startup complete.
+2022-01-23 22:47:29,641 StatReload detected file change in 'send_email.py'. Reloading...
+2022-01-23 22:47:30,755 Connection to database has been established successfully
+2022-01-23 22:47:30,803 The --reload flag should not be used in production on Windows.
+2022-01-23 22:47:30,804 Using selector: SelectSelector
+2022-01-23 22:47:30,874 Started server process [9836]
+2022-01-23 22:47:30,875 Waiting for application startup.
+2022-01-23 22:47:30,875 Application startup complete.
+2022-01-23 22:48:02,352 StatReload detected file change in 'send_email.py'. Reloading...
+2022-01-23 22:48:03,244 Connection to database has been established successfully
+2022-01-23 22:48:03,271 The --reload flag should not be used in production on Windows.
+2022-01-23 22:48:03,271 Using selector: SelectSelector
+2022-01-23 22:48:03,310 Started server process [14124]
+2022-01-23 22:48:03,310 Waiting for application startup.
+2022-01-23 22:48:03,311 Application startup complete.
+2022-01-23 22:57:07,916 Shutting down
+2022-01-23 22:57:08,025 Waiting for application shutdown.
+2022-01-23 22:57:08,026 Application shutdown complete.
+2022-01-23 22:57:08,026 Finished server process [14124]
+2022-01-23 23:30:53,300 Connection to database has been established successfully
+2022-01-23 23:30:53,320 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 23:30:53,321 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 23:30:53,321 Started reloader process [14540] using statreload
+2022-01-23 23:30:54,663 Connection to database has been established successfully
+2022-01-23 23:30:54,700 The --reload flag should not be used in production on Windows.
+2022-01-23 23:30:54,700 Using selector: SelectSelector
+2022-01-23 23:30:54,729 Started server process [20684]
+2022-01-23 23:30:54,730 Waiting for application startup.
+2022-01-23 23:30:54,730 Application startup complete.
+2022-01-23 23:31:55,220 Successfully added one user Details
+2022-01-23 23:31:57,899 error caught :Exception raised (534, '5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor y13sm4609545pgi.8 - gsmtp'), check your credentials or email service configuration
+2022-01-23 23:34:54,729 error caught :1062 (23000): Duplicate entry 'dibyeshmishra03@gmail.com' for key 'user.user_email'
+2022-01-23 23:35:10,786 Successfully added one user Details
+2022-01-23 23:35:13,347 error caught :Exception raised (534, '5.7.9 Application-specific password required. Learn more at\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor t6sm10226438pgr.90 - gsmtp'), check your credentials or email service configuration
+2022-01-23 23:37:13,455 error caught :1062 (23000): Duplicate entry 'dibyeshmishra3695@gmail.com' for key 'user.user_email'
+2022-01-23 23:37:28,694 Shutting down
+2022-01-23 23:37:28,806 Waiting for application shutdown.
+2022-01-23 23:37:28,806 Application shutdown complete.
+2022-01-23 23:37:28,806 Finished server process [20684]
+2022-01-23 23:37:28,826 Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001C4EA031AC0>
+transport: <_SelectorSocketTransport closing fd=824>
+Traceback (most recent call last):
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 918, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\sslproto.py", line 684, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 924, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 719, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 731, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-01-23 23:37:28,838 Fatal error on SSL transport
+protocol: <asyncio.sslproto.SSLProtocol object at 0x000001C4EA053C70>
+transport: <_SelectorSocketTransport closing fd=496>
+Traceback (most recent call last):
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 918, in write
+    n = self._sock.send(data)
+OSError: [WinError 10038] An operation was attempted on something that is not a socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\sslproto.py", line 684, in _process_write_backlog
+    self._transport.write(chunk)
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 924, in write
+    self._fatal_error(exc, 'Fatal write error on socket transport')
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 719, in _fatal_error
+    self._force_close(exc)
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\selector_events.py", line 731, in _force_close
+    self._loop.call_soon(self._call_connection_lost, exc)
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 746, in call_soon
+    self._check_closed()
+  File "C:\Users\dibye\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 510, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2022-01-23 23:37:29,094 Stopping reloader process [14540]
+2022-01-23 23:37:32,819 Connection to database has been established successfully
+2022-01-23 23:37:32,846 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 23:37:32,847 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 23:37:32,847 Started reloader process [18920] using statreload
+2022-01-23 23:37:33,843 Connection to database has been established successfully
+2022-01-23 23:37:33,876 The --reload flag should not be used in production on Windows.
+2022-01-23 23:37:33,876 Using selector: SelectSelector
+2022-01-23 23:37:33,897 Started server process [3864]
+2022-01-23 23:37:33,897 Waiting for application startup.
+2022-01-23 23:37:33,898 Application startup complete.
+2022-01-23 23:39:24,056 error caught :1062 (23000): Duplicate entry 'dibyeshmishra3695@gmail.com' for key 'user.user_email'
+2022-01-23 23:39:27,836 error caught :1062 (23000): Duplicate entry 'dibyeshmishra3695@gmail.com' for key 'user.user_email'
+2022-01-23 23:40:03,374 error caught :1062 (23000): Duplicate entry 'dibyeshmishra3695@gmail.com' for key 'user.user_email'
+2022-01-23 23:41:07,846 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-23 23:41:18,416 Shutting down
+2022-01-23 23:41:18,524 Waiting for application shutdown.
+2022-01-23 23:41:18,524 Application shutdown complete.
+2022-01-23 23:41:18,524 Finished server process [3864]
+2022-01-23 23:41:18,835 Stopping reloader process [18920]
+2022-01-23 23:41:23,437 Connection to database has been established successfully
+2022-01-23 23:41:23,459 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 23:41:23,459 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 23:41:23,459 Started reloader process [16492] using statreload
+2022-01-23 23:41:24,413 Connection to database has been established successfully
+2022-01-23 23:41:24,437 The --reload flag should not be used in production on Windows.
+2022-01-23 23:41:24,437 Using selector: SelectSelector
+2022-01-23 23:41:24,453 Started server process [12460]
+2022-01-23 23:41:24,454 Waiting for application startup.
+2022-01-23 23:41:24,454 Application startup complete.
+2022-01-23 23:41:31,192 Successfully added one user Details
+2022-01-23 23:49:59,168 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 23:50:00,684 Connection to database has been established successfully
+2022-01-23 23:50:00,715 The --reload flag should not be used in production on Windows.
+2022-01-23 23:50:00,715 Using selector: SelectSelector
+2022-01-23 23:50:00,757 Started server process [5644]
+2022-01-23 23:50:00,758 Waiting for application startup.
+2022-01-23 23:50:00,758 Application startup complete.
+2022-01-23 23:51:24,865 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 23:51:26,246 Connection to database has been established successfully
+2022-01-23 23:51:26,275 The --reload flag should not be used in production on Windows.
+2022-01-23 23:51:26,275 Using selector: SelectSelector
+2022-01-23 23:51:26,304 Started server process [15436]
+2022-01-23 23:51:26,304 Waiting for application startup.
+2022-01-23 23:51:26,305 Application startup complete.
+2022-01-23 23:51:47,135 Successfully added one user Details
+2022-01-23 23:51:47,135 error caught :name 'abc' is not defined
+2022-01-23 23:52:18,795 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 23:52:20,176 Connection to database has been established successfully
+2022-01-23 23:52:20,231 The --reload flag should not be used in production on Windows.
+2022-01-23 23:52:20,231 Using selector: SelectSelector
+2022-01-23 23:52:20,258 Started server process [16244]
+2022-01-23 23:52:20,259 Waiting for application startup.
+2022-01-23 23:52:20,259 Application startup complete.
+2022-01-23 23:52:47,305 Successfully added one user Details
+2022-01-23 23:56:31,305 error caught :Invalid crypto padding
+2022-01-23 23:58:18,523 error caught :Invalid crypto padding
+2022-01-23 23:58:33,133 error caught :Not enough segments
+2022-01-24 00:01:38,333 StatReload detected file change in 'send_email.py'. Reloading...
+2022-01-24 00:01:39,586 Connection to database has been established successfully
+2022-01-24 00:01:39,617 The --reload flag should not be used in production on Windows.
+2022-01-24 00:01:39,618 Using selector: SelectSelector
+2022-01-24 00:01:39,668 Started server process [17884]
+2022-01-24 00:01:39,668 Waiting for application startup.
+2022-01-24 00:01:39,669 Application startup complete.
+2022-01-24 00:17:12,824 Successfully added one user Details
+2022-01-24 00:22:17,803 StatReload detected file change in 'main.py'. Reloading...
+2022-01-24 00:22:19,721 Connection to database has been established successfully
+2022-01-24 00:22:19,757 The --reload flag should not be used in production on Windows.
+2022-01-24 00:22:19,757 Using selector: SelectSelector
+2022-01-24 00:22:19,806 Started server process [11488]
+2022-01-24 00:22:19,806 Waiting for application startup.
+2022-01-24 00:22:19,807 Application startup complete.
+2022-01-24 00:26:35,170 error caught :Invalid crypto padding
+2022-01-24 00:27:23,023 StatReload detected file change in 'main.py'. Reloading...
+2022-01-24 00:27:24,399 Connection to database has been established successfully
+2022-01-24 00:27:24,432 The --reload flag should not be used in production on Windows.
+2022-01-24 00:27:24,432 Using selector: SelectSelector
+2022-01-24 00:27:24,452 Started server process [10764]
+2022-01-24 00:27:24,452 Waiting for application startup.
+2022-01-24 00:27:24,452 Application startup complete.
+2022-01-24 00:29:58,637 StatReload detected file change in 'main.py'. Reloading...
+2022-01-24 00:31:35,468 StatReload detected file change in 'main.py'. Reloading...
+2022-01-24 00:31:36,663 Connection to database has been established successfully
+2022-01-24 00:31:36,687 The --reload flag should not be used in production on Windows.
+2022-01-24 00:31:36,687 Using selector: SelectSelector
+2022-01-24 00:31:36,708 Started server process [20112]
+2022-01-24 00:31:36,709 Waiting for application startup.
+2022-01-24 00:31:36,709 Application startup complete.
+2022-01-24 00:32:18,232 Successfully added one user Details
+2022-01-24 00:32:18,240 error caught :2 validation errors for MessageSchema
+body
+  str type expected (type=type_error.str)
+body
+  value is not a valid list (type=type_error.list)
+2022-01-24 00:33:12,534 StatReload detected file change in 'main.py'. Reloading...
+2022-01-24 00:33:13,557 Connection to database has been established successfully
+2022-01-24 00:33:13,581 The --reload flag should not be used in production on Windows.
+2022-01-24 00:33:13,581 Using selector: SelectSelector
+2022-01-24 00:33:13,601 Started server process [19292]
+2022-01-24 00:33:13,602 Waiting for application startup.
+2022-01-24 00:33:13,602 Application startup complete.
+2022-01-24 00:33:26,561 Successfully added one user Details
+2022-01-24 00:36:58,770 error caught :Invalid crypto padding

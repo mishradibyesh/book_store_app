@@ -7,6 +7,7 @@ from fastapi import FastAPI, Header
 import logging
 
 from schema.book_model import Book
+from send_email import send_email_async
 from service.queries import Functionality
 from schema.user_model import User
 from jwt_token.token_registeration import TokenForLogin
@@ -61,7 +62,9 @@ async def add_user(user: User):
         user_id = function.add_user_db(user.user_name, user.user_password, user.user_email, user.mobile)
         logging.info("Successfully added one user Details")
         token_user = token_functionality.encode_id(user_id)
-        return {"status": 200, "message": "Successfully added The user Details","token generated ": token_user,
+        verification = f'http://127.0.0.1:8000/user/verification/{token_user}'
+        await send_email_async("user_verification", user.user_email, verification)
+        return {"status": 200, "message": "Successfully added The user Details and sent the mail","token generated ": token_user,
                 "data": user}
     except Exception as error:
         logging.error(f"error caught :{error}")
