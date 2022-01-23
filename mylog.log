@@ -480,3 +480,233 @@
 2022-01-21 11:10:50,772 Started server process [15372]
 2022-01-21 11:10:50,773 Waiting for application startup.
 2022-01-21 11:10:50,782 Application startup complete.
+2022-01-23 10:16:36,801 Connection to database has been established successfully
+2022-01-23 10:16:36,863 Started server process [17400]
+2022-01-23 10:16:36,864 Waiting for application startup.
+2022-01-23 10:16:36,866 Application startup complete.
+2022-01-23 12:08:13,605 Connection to database has been established successfully
+2022-01-23 12:08:13,690 Started server process [15436]
+2022-01-23 12:08:13,690 Waiting for application startup.
+2022-01-23 12:08:13,694 Application startup complete.
+2022-01-23 13:10:20,381 Connection to database has been established successfully
+2022-01-23 13:10:20,425 Started server process [18840]
+2022-01-23 13:10:20,425 Waiting for application startup.
+2022-01-23 13:10:20,428 Application startup complete.
+2022-01-23 13:12:51,292 Connection to database has been established successfully
+2022-01-23 13:12:51,350 Started server process [14548]
+2022-01-23 13:12:51,351 Waiting for application startup.
+2022-01-23 13:12:51,354 Application startup complete.
+2022-01-23 13:13:34,958 Error: Credentials Are incorrect, Please Try again!
+2022-01-23 13:14:08,597 Successfully Login into Book Store App!!
+2022-01-23 13:14:08,598 User Details are : [{'user_id': 2, 'user_name': 'mukul', 'user_password': 'mukul@3', 'user_email': 'mukul@gmail.com', 'mobile': '783987738', 'is_verified': 0}]
+2022-01-23 13:14:08,598 Error: 'id'
+2022-01-23 13:15:21,962 Successfully Login into Book Store App!!
+2022-01-23 13:15:21,963 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 0}]
+2022-01-23 13:15:21,963 Error: 'id'
+2022-01-23 13:23:28,608 Connection to database has been established successfully
+2022-01-23 13:23:28,642 Started server process [13236]
+2022-01-23 13:23:28,642 Waiting for application startup.
+2022-01-23 13:23:28,647 Application startup complete.
+2022-01-23 13:23:59,007 Error: Unread result found
+2022-01-23 13:29:57,294 Connection to database has been established successfully
+2022-01-23 13:29:57,365 Started server process [2776]
+2022-01-23 13:29:57,366 Waiting for application startup.
+2022-01-23 13:29:57,369 Application startup complete.
+2022-01-23 13:29:57,567 Error: Unread result found
+2022-01-23 13:34:44,360 Connection to database has been established successfully
+2022-01-23 13:37:31,044 Connection to database has been established successfully
+2022-01-23 13:37:31,085 Started server process [20964]
+2022-01-23 13:37:31,085 Waiting for application startup.
+2022-01-23 13:37:31,089 Application startup complete.
+2022-01-23 13:37:35,132 Successfully Login into Book Store App!!
+2022-01-23 13:37:35,133 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 0}]
+2022-01-23 13:37:35,133 Error: 'id'
+2022-01-23 13:37:55,902 Connection to database has been established successfully
+2022-01-23 13:37:55,923 Started server process [20992]
+2022-01-23 13:37:55,924 Waiting for application startup.
+2022-01-23 13:37:55,926 Application startup complete.
+2022-01-23 13:37:59,798 Successfully Login into Book Store App!!
+2022-01-23 13:37:59,798 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 0}]
+2022-01-23 14:25:07,423 Connection to database has been established successfully
+2022-01-23 14:25:07,530 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 14:25:07,531 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 14:25:07,532 Started reloader process [11548] using statreload
+2022-01-23 14:25:08,717 Connection to database has been established successfully
+2022-01-23 14:25:08,832 The --reload flag should not be used in production on Windows.
+2022-01-23 14:25:08,833 Using selector: SelectSelector
+2022-01-23 14:25:09,074 Started server process [1692]
+2022-01-23 14:25:09,075 Waiting for application startup.
+2022-01-23 14:25:09,076 Application startup complete.
+2022-01-23 17:05:39,670 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 17:05:43,629 Connection to database has been established successfully
+2022-01-23 17:05:43,791 The --reload flag should not be used in production on Windows.
+2022-01-23 17:05:43,791 Using selector: SelectSelector
+2022-01-23 17:05:43,987 Started server process [15484]
+2022-01-23 17:05:43,987 Waiting for application startup.
+2022-01-23 17:05:43,987 Application startup complete.
+2022-01-23 17:05:54,167 error caught :table is not present in the database
+2022-01-23 17:09:01,641 error caught :table is not present in the database
+2022-01-23 17:10:39,879 error caught :table is not present in the database
+2022-01-23 17:12:04,353 StatReload detected file change in 'service\queries.py'. Reloading...
+2022-01-23 17:12:05,595 Connection to database has been established successfully
+2022-01-23 17:12:05,657 The --reload flag should not be used in production on Windows.
+2022-01-23 17:12:05,658 Using selector: SelectSelector
+2022-01-23 17:12:05,730 Started server process [16524]
+2022-01-23 17:12:05,730 Waiting for application startup.
+2022-01-23 17:12:05,731 Application startup complete.
+2022-01-23 17:12:48,820 Shutting down
+2022-01-23 17:12:48,927 Waiting for application shutdown.
+2022-01-23 17:12:48,927 Application shutdown complete.
+2022-01-23 17:12:48,927 Finished server process [16524]
+2022-01-23 17:12:48,999 Stopping reloader process [11548]
+2022-01-23 17:12:50,636 Connection to database has been established successfully
+2022-01-23 17:12:50,685 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 17:12:50,686 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 17:12:50,686 Started reloader process [6948] using statreload
+2022-01-23 17:12:51,677 Connection to database has been established successfully
+2022-01-23 17:12:51,721 The --reload flag should not be used in production on Windows.
+2022-01-23 17:12:51,722 Using selector: SelectSelector
+2022-01-23 17:12:51,766 Started server process [7616]
+2022-01-23 17:12:51,767 Waiting for application startup.
+2022-01-23 17:12:51,767 Application startup complete.
+2022-01-23 17:13:11,558 Successfully retrieved all books Details 
+2022-01-23 17:15:21,024 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-23 17:15:25,992 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-23 17:15:35,682 error caught :2013 (HY000): Lost connection to MySQL server during query
+2022-01-23 17:16:03,104 Shutting down
+2022-01-23 17:16:03,212 Waiting for application shutdown.
+2022-01-23 17:16:03,212 Application shutdown complete.
+2022-01-23 17:16:03,212 Finished server process [7616]
+2022-01-23 17:16:03,791 Stopping reloader process [6948]
+2022-01-23 17:16:05,779 Connection to database has been established successfully
+2022-01-23 17:16:05,891 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 17:16:05,893 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 17:16:05,894 Started reloader process [16276] using statreload
+2022-01-23 17:16:07,023 Connection to database has been established successfully
+2022-01-23 17:16:07,109 The --reload flag should not be used in production on Windows.
+2022-01-23 17:16:07,110 Using selector: SelectSelector
+2022-01-23 17:16:07,348 Started server process [3676]
+2022-01-23 17:16:07,352 Waiting for application startup.
+2022-01-23 17:16:07,353 Application startup complete.
+2022-01-23 17:16:12,270 Successfully retrieved all books Details 
+2022-01-23 17:27:12,316 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 17:27:14,224 Connection to database has been established successfully
+2022-01-23 17:27:14,339 The --reload flag should not be used in production on Windows.
+2022-01-23 17:27:14,341 Using selector: SelectSelector
+2022-01-23 17:27:14,493 Started server process [5012]
+2022-01-23 17:27:14,494 Waiting for application startup.
+2022-01-23 17:27:14,495 Application startup complete.
+2022-01-23 17:27:26,182 Successfully retrieved  book Details
+2022-01-23 17:28:46,874 Stopping reloader process [16276]
+2022-01-23 17:28:48,164 Connection to database has been established successfully
+2022-01-23 17:28:48,220 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 17:28:48,221 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 17:28:48,221 Started reloader process [10904] using statreload
+2022-01-23 17:28:49,078 Connection to database has been established successfully
+2022-01-23 17:28:49,106 The --reload flag should not be used in production on Windows.
+2022-01-23 17:28:49,107 Using selector: SelectSelector
+2022-01-23 17:28:49,144 Started server process [20588]
+2022-01-23 17:28:49,144 Waiting for application startup.
+2022-01-23 17:28:49,144 Application startup complete.
+2022-01-23 17:29:21,606 Successfully retrieved  book Details
+2022-01-23 17:32:43,679 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 17:32:45,528 Connection to database has been established successfully
+2022-01-23 17:36:06,861 StatReload detected file change in 'schema\book_model.py'. Reloading...
+2022-01-23 17:36:08,002 Connection to database has been established successfully
+2022-01-23 17:49:03,839 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 17:49:05,098 Connection to database has been established successfully
+2022-01-23 17:49:05,172 The --reload flag should not be used in production on Windows.
+2022-01-23 17:49:05,173 Using selector: SelectSelector
+2022-01-23 17:49:05,241 Started server process [3420]
+2022-01-23 17:49:05,242 Waiting for application startup.
+2022-01-23 17:49:05,242 Application startup complete.
+2022-01-23 17:50:31,819 Successfully added one book Details
+2022-01-23 18:04:22,174 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:04:23,993 Connection to database has been established successfully
+2022-01-23 18:04:24,044 The --reload flag should not be used in production on Windows.
+2022-01-23 18:04:24,046 Using selector: SelectSelector
+2022-01-23 18:04:24,113 Started server process [7320]
+2022-01-23 18:04:24,113 Waiting for application startup.
+2022-01-23 18:04:24,113 Application startup complete.
+2022-01-23 18:04:41,401 error caught :%d format: a number is required, not str
+2022-01-23 18:05:00,747 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:05:01,548 Connection to database has been established successfully
+2022-01-23 18:05:01,587 The --reload flag should not be used in production on Windows.
+2022-01-23 18:05:01,588 Using selector: SelectSelector
+2022-01-23 18:05:01,638 Started server process [8768]
+2022-01-23 18:05:01,638 Waiting for application startup.
+2022-01-23 18:05:01,639 Application startup complete.
+2022-01-23 18:05:46,001 Successfully added one book Details
+2022-01-23 18:06:10,253 error caught :%d format: a number is required, not str
+2022-01-23 18:06:56,446 StatReload detected file change in 'service\queries.py'. Reloading...
+2022-01-23 18:06:57,533 Connection to database has been established successfully
+2022-01-23 18:06:57,594 The --reload flag should not be used in production on Windows.
+2022-01-23 18:06:57,595 Using selector: SelectSelector
+2022-01-23 18:06:57,689 Started server process [14740]
+2022-01-23 18:06:57,690 Waiting for application startup.
+2022-01-23 18:06:57,690 Application startup complete.
+2022-01-23 18:07:00,603 error caught :%d format: a number is required, not str
+2022-01-23 18:07:04,443 error caught :%d format: a number is required, not str
+2022-01-23 18:07:29,764 error caught :%d format: a number is required, not str
+2022-01-23 18:12:27,442 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:12:29,299 Connection to database has been established successfully
+2022-01-23 18:12:29,347 The --reload flag should not be used in production on Windows.
+2022-01-23 18:12:29,347 Using selector: SelectSelector
+2022-01-23 18:12:29,410 Started server process [2512]
+2022-01-23 18:12:29,410 Waiting for application startup.
+2022-01-23 18:12:29,411 Application startup complete.
+2022-01-23 18:12:31,821 updated gender of Employee_id 3 
+2022-01-23 18:15:35,977 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:15:37,328 Connection to database has been established successfully
+2022-01-23 18:15:37,421 The --reload flag should not be used in production on Windows.
+2022-01-23 18:15:37,422 Using selector: SelectSelector
+2022-01-23 18:15:37,575 Started server process [12624]
+2022-01-23 18:15:37,576 Waiting for application startup.
+2022-01-23 18:15:37,576 Application startup complete.
+2022-01-23 18:15:52,103 error caught :this book id is not present in the database
+2022-01-23 18:16:04,562 error caught :this book id is not present in the database
+2022-01-23 18:16:45,991 Successfully retrieved  book Details
+2022-01-23 18:46:30,910 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:46:31,623 Connection to database has been established successfully
+2022-01-23 18:46:31,658 The --reload flag should not be used in production on Windows.
+2022-01-23 18:46:31,658 Using selector: SelectSelector
+2022-01-23 18:46:31,708 Started server process [11456]
+2022-01-23 18:46:31,708 Waiting for application startup.
+2022-01-23 18:46:31,708 Application startup complete.
+2022-01-23 18:46:43,413 error caught :this id is not present in the database
+2022-01-23 18:47:15,408 error caught :this id is not present in the database
+2022-01-23 18:47:34,206 error caught :this id is not present in the database
+2022-01-23 18:50:38,635 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:50:39,211 Connection to database has been established successfully
+2022-01-23 18:50:39,237 The --reload flag should not be used in production on Windows.
+2022-01-23 18:50:39,237 Using selector: SelectSelector
+2022-01-23 18:50:39,275 Started server process [5556]
+2022-01-23 18:50:39,276 Waiting for application startup.
+2022-01-23 18:50:39,276 Application startup complete.
+2022-01-23 18:51:29,144 Shutting down
+2022-01-23 18:51:29,181 Stopping reloader process [10904]
+2022-01-23 18:51:29,883 Connection to database has been established successfully
+2022-01-23 18:51:29,930 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-23 18:51:29,931 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-23 18:51:29,932 Started reloader process [19184] using statreload
+2022-01-23 18:51:30,786 Connection to database has been established successfully
+2022-01-23 18:51:30,813 The --reload flag should not be used in production on Windows.
+2022-01-23 18:51:30,814 Using selector: SelectSelector
+2022-01-23 18:51:30,844 Started server process [12188]
+2022-01-23 18:51:30,844 Waiting for application startup.
+2022-01-23 18:51:30,844 Application startup complete.
+2022-01-23 18:51:43,636 error caught :this id is not present in the database
+2022-01-23 18:51:53,786 deleted book by using book_id 1
+2022-01-23 18:52:33,792 error caught :this id is not present in the database
+2022-01-23 18:53:57,184 Successfully added one book Details
+2022-01-23 18:54:09,366 error caught :this id is not present in the database
+2022-01-23 18:54:14,389 error caught :this id is not present in the database
+2022-01-23 18:54:29,072 Successfully added one book Details
+2022-01-23 18:54:37,894 deleted book by using book_id 3
+2022-01-23 18:58:15,181 StatReload detected file change in 'main.py'. Reloading...
+2022-01-23 18:58:15,774 Connection to database has been established successfully
+2022-01-23 18:58:15,804 The --reload flag should not be used in production on Windows.
+2022-01-23 18:58:15,804 Using selector: SelectSelector
+2022-01-23 18:58:15,848 Started server process [18260]
+2022-01-23 18:58:15,848 Waiting for application startup.
+2022-01-23 18:58:15,848 Application startup complete.
