@@ -7,6 +7,7 @@ from fastapi_mail import FastMail, MessageSchema, ConnectionConfig
 from dotenv import load_dotenv
 load_dotenv('.env')
 
+
 class Envs:
     MAIL_USERNAME = os.getenv('MAIL_USERNAME')
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
@@ -26,18 +27,17 @@ conf = ConnectionConfig(
     MAIL_TLS=True,
     MAIL_SSL=False,
     USE_CREDENTIALS=True,
-    TEMPLATE_FOLDER='./templates/'
 )
 
 
-async def send_email_async(subject: str, email_to: str, body: dict):
+async def send_email_async(subject: str, email_to: str, token_user):
+    link = f'http://127.0.0.1:8000/user/verification/{token_user}'
     message = MessageSchema(
         subject=subject,
         recipients=[email_to],
-        body=body,
-        subtype='html',
-    )
+        body=link
+     )
 
     fm = FastMail(conf)
-    await fm.send_message(message, template_name='email.html')
+    await fm.send_message(message)
 
