@@ -8,14 +8,14 @@ from jwt_token.token_registeration import TokenForLogin
 from schema.book_model import Book
 from service.queries_books import BooksFunctionality
 
-route = APIRouter(prefix="/users", tags=["BOOKS"])
+route = APIRouter(prefix="/books", tags=["BOOKS"])
 function = BooksFunctionality()
 token_functionality = TokenForLogin()
 
 logging.basicConfig(filename="../mylog.log", level=logging.DEBUG, format='%(asctime)s %(message)s')
 
 
-@route.get("/books/all_books")
+@route.get("/all_books")
 async def get_table_data():
     """
     desc: created an api to retrieve all the data in the book table
@@ -30,7 +30,7 @@ async def get_table_data():
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.get("/books/")
+@route.get("/")
 async def get_book_by_id(book_id: int):
     """
     desc: created an api to retrieve all the data of about a book
@@ -46,7 +46,7 @@ async def get_book_by_id(book_id: int):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.post("/books/")
+@route.post("/")
 async def add_book(book: Book):
     """
     desc: created api to add one book to the database
@@ -62,7 +62,7 @@ async def add_book(book: Book):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.put("/book/")
+@route.put("/")
 async def update_book(book_id: int, book: Book):
     """
     desc: created api to update id, author, title, image, quantity, price, description of book to the database
@@ -79,7 +79,7 @@ async def update_book(book_id: int, book: Book):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.delete("/book/")
+@route.delete("/")
 async def delete_book_by_id(book_id: int):
     """
     desc: created api to delete one book from the database
@@ -96,8 +96,13 @@ async def delete_book_by_id(book_id: int):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.post("/book/upload_file")
+@route.post("/upload_file")
 async def upload_csv_file(csv_file: UploadFile = File(...)):
+    """
+    desc: created api to upload ,read and insert the data into database
+    param: csv_file path
+    return: result
+    """
     try:
         result = function.insert_to_db(csv_file)
         logging.info("successfully uploaded the file and inserted into database")

@@ -1,6 +1,6 @@
 """
 @author: Dibyesh Mishra
-@date: 26-01-2022 20:53
+@date: 27-01-2022 22:13
 """
 from jwt_token.token_registeration import TokenForLogin
 from core.connection import DbConnection
@@ -10,7 +10,7 @@ jwt_token = TokenForLogin()
 user_function = UserFunctionality()
 
 
-class WishlistFunctionality:
+class CartFunctionality:
     """
          class Functionality have methods which helping to manipulate the wishlist table
          in database book_store_app
@@ -26,38 +26,49 @@ class WishlistFunctionality:
         else:
             raise DataNotFound("invalid token ")
 
-    def get_user_wishlist(self,token):
+    def get_user_cart(self,token):
         """
-            desc: query to get all wishlist detail from database
-            return: wishlist detail in dictionary format
+            desc: query to get cart detail from database
+            return: cart detail in dictionary format
         """
         user_id = self.verify_user(token)
-        get_wishlist_query = '''select title,author,price,image from books
-                                    inner join wishlist on wishlist.book_id = books.id where user_id=%d;''' % user_id
-        self.my_cursor.execute(get_wishlist_query)
+        get_cart_query = '''select books.id,title,author,price,image,cart.user_id,cart.quantity from books
+                                    inner join cart on cart.book_id = books.id where user_id=%d;''' % user_id
+        self.my_cursor.execute(get_cart_query)
         wish_list = [i for i in self.my_cursor]
         if wish_list:
             return wish_list
         else:
             raise Exception("There is no result for this user_id")
 
-    def add_wishlist(self, token, book_id):
+    def add_to_cart(self, token, book_id, quantity):
         """
             desc: query to get all wishlist detail from database
             return: wishlist detail in dictionary format
         """
         user_id = self.verify_user(token)
-        get_wishlist_query = "insert into wishlist(user_id,book_id) values(%d,%d)" % (user_id, book_id)
+        get_wishlist_query = "insert into cart(book_id,user_id,quantity) values(%d,%d,%d)" % (book_id, user_id,quantity)
         self.my_cursor.execute(get_wishlist_query)
         self.connection.commit()
 
+    def update_quantity_of_book_in_cart(self,token, book_id, quantity):
+        """
+            desc: deleting book from cart
+            param:  user_id, book_id
+            :return: quantity
+        """
+        user_id = self.verify_user(token)
+        query = "UPDATE cart SET quantity = %d WHERE book_id = %d AND user_id = %d" % (quantity, book_id, user_id)
+        self.my_cursor.execute(query)
+        self.connection.commit()
+        return quantity
+
     def delete_wishlist(self, token, book_id):
         """
-            desc: query to delete the wishlist for a user_id from database
+            desc: query to delete the book for a user_id from cart
             param: token , book_id
         """
         user_id = self.verify_user(token)
-        delete_wishlist_query = "delete from cart where user_id = %d and book_id = %d" % (user_id,book_id)
+        delete_wishlist_query = "delete from cart where user_id=%d and book_id = %d" % (user_id,book_id)
         self.my_cursor.execute(delete_wishlist_query)
         self.connection.commit()
-        return book_id

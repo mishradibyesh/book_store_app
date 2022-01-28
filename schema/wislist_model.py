@@ -7,6 +7,6 @@ from pydantic import BaseModel
 
 class Wishlist(BaseModel):
     """
-    this class contains attributes related to employee details
+    this class contains attributes related to wishlist details
     """
     book_id: int

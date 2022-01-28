@@ -16,7 +16,7 @@ token_functionality = TokenForLogin()
 logging.basicConfig(filename="../mylog.log", level=logging.DEBUG, format='%(asctime)s %(message)s')
 
 
-@route.get("/users/")
+@route.get("/all/")
 async def get_table_data():
     """
     desc: created an api to retrieve all the data in the user table
@@ -31,7 +31,7 @@ async def get_table_data():
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.get("/user/")
+@route.get("/")
 async def get_user_by_id(user_id: int):
     """
     desc: created an api to retrieve all the data of a user
@@ -47,7 +47,7 @@ async def get_user_by_id(user_id: int):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.post("/user/registration")
+@route.post("/registration")
 async def add_user(user: User):
     """
     desc: created api to add one user to the database
@@ -66,7 +66,7 @@ async def add_user(user: User):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.get("/user/verification/{token}")
+@route.get("/verification/{token}")
 async def user_verification(token: str = Header(None)):
     """
        desc: created api to verify  with token
@@ -82,7 +82,7 @@ async def user_verification(token: str = Header(None)):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.put("/user/")
+@route.put("/")
 async def update_user(user_id: int, user: User):
     """
     desc: created api to update name , email password and mobile of user to the database
@@ -99,7 +99,7 @@ async def update_user(user_id: int, user: User):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.delete("/user/{user_id}")
+@route.delete("/delete/{user_id}")
 async def delete_user_by_id(user_id: int):
     """
     desc: created api to delete one user to the database
@@ -116,7 +116,7 @@ async def delete_user_by_id(user_id: int):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.post("/user/login/")
+@route.post("/login/")
 def user_login(email_id: str, password: str):
     """
     desc: created api to login into book store app

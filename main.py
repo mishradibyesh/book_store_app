@@ -4,7 +4,7 @@
 """
 import uvicorn
 
-from routers import user_api, wishlist_api, book_api
+from routers import user_api, wishlist_api, book_api, cart_api
 from fastapi import FastAPI
 
 
@@ -13,6 +13,7 @@ app = FastAPI(title="Book Store App")
 app.include_router(user_api.route)
 app.include_router(book_api.route)
 app.include_router(wishlist_api.route)
+app.include_router(cart_api.route)
 
 
 if __name__ == '__main__':
