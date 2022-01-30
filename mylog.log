@@ -5425,3 +5425,30 @@ mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'nan' in '
 2022-01-28 08:46:25,235 Successfully Get All Books details in cart
 2022-01-28 08:46:43,899 Successfully deleted  book from cart
 2022-01-28 08:46:52,535 Successfully Get All Books details in cart
+2022-01-29 10:05:55,680 StatReload detected file change in 'schema\user_model.py'. Reloading...
+2022-01-29 10:06:09,527 Connection to database has been established successfully
+2022-01-29 10:06:09,580 Connection to database has been established successfully
+2022-01-29 10:06:09,635 Connection to database has been established successfully
+2022-01-29 10:06:09,706 Connection to database has been established successfully
+2022-01-29 10:06:09,829 The --reload flag should not be used in production on Windows.
+2022-01-29 10:06:09,829 Using selector: SelectSelector
+2022-01-29 10:06:09,961 Started server process [2768]
+2022-01-29 10:06:09,963 Waiting for application startup.
+2022-01-29 10:06:09,964 Application startup complete.
+2022-01-29 15:55:01,583 Successfully retrieved all users Details 
+2022-01-29 15:55:10,862 Successfully retrieved  user Details
+2022-01-29 15:55:43,999 updated details of user_id 48 
+2022-01-29 15:56:42,604 error caught :1062 (23000): Duplicate entry 'dibyeshmishra3695@gmail.com' for key 'user.user_email'
+2022-01-29 15:57:04,380 Successfully added one user Details
+2022-01-29 15:58:06,500 Successfully retrieved all users Details 
+2022-01-29 15:58:31,319 deleted user by using user_id 51
+2022-01-29 15:58:36,786 Successfully retrieved all users Details 
+2022-01-29 15:58:52,710 Successfully Login into Book Store App!!
+2022-01-29 15:58:52,710 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-29 15:59:11,797 Successfully retrieved all books Details 
+2022-01-29 16:00:49,592 Successfully retrieved  book Details
+2022-01-30 19:33:32,991 StatReload detected file change in 'routers\user_api.py'. Reloading...
+2022-01-30 19:33:46,081 Connection to database has been established successfully
+2022-01-30 19:33:46,135 Connection to database has been established successfully
+2022-01-30 19:33:46,219 Connection to database has been established successfully
+2022-01-30 19:33:46,331 Connection to database has been established successfully

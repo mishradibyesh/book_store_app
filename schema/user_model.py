@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 class User(BaseModel):
     """
-    this class contains attributes related to employee details
+    this class contains attributes related to user details
     """
     user_name: str
     user_password: str
