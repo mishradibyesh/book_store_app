@@ -33,7 +33,7 @@ def get_all_wishlist(token: str = Header(None)):
                 }
 
 
-@route.post("/add/")
+@route.post("/")
 def add_to_wishlist(wishlist: Wishlist, token: str = Header(None)):
     """
        desc: api to add the books in the wishlist
@@ -51,7 +51,7 @@ def add_to_wishlist(wishlist: Wishlist, token: str = Header(None)):
         }
 
 
-@route.delete("/delete/")
+@route.delete("/")
 def delete_from_wishlist(wishlist: Wishlist, token: str = Header(None)):
     """
        desc: api to delete books from the wishlist

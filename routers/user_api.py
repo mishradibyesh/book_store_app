@@ -6,7 +6,7 @@ import logging
 from fastapi import APIRouter, Header
 from jwt_token.token_registeration import TokenForLogin
 from schema.user_model import User
-from service.send_email import send_email_async
+from send_email import send_email_async
 from service.queries_user import UserFunctionality
 
 route = APIRouter(prefix="/users", tags=["USERS"])

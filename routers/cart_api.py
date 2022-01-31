@@ -23,19 +23,19 @@ def get_cart_items(token: str = Header(None)):
     try:
         cart = funct.get_user_cart(token)
         logging.info("Successfully Get All Books details in cart")
-        return {"status": 200, "message": "Successfully fetched wishlist", "data": cart}
+        return {"status": 200, "message": "Successfully fetched cart items", "data": cart}
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 404, "message": f"Error : {e}"
                 }
 
 
-@route.post("/add/")
+@route.post("/")
 def add_to_cart(cart: Cart, token: str = Header(None)):
     try:
-        cart = funct.add_to_cart(token, cart.book_id, cart.quantity)
+        funct.add_to_cart(token, cart.book_id, cart.quantity)
         logging.info("Successfully added  to cart")
-        return {"status": 200, "message": "Successfully added to  cart", "data": cart}
+        return {"status": 200, "message": "Successfully added to  cart"}
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 404, "message": f"Error : {e}"
@@ -60,8 +60,8 @@ def update_quantity(cart: Cart, token: str = Header(None)):
         return {"status": 404, "message": f"Error : {error}"}
 
 
-@route.delete("/delete/")
-def delete_from_wishlist(book_id: int, token: str = Header(None)):
+@route.delete("/")
+def delete_from_cart(book_id: int, token: str = Header(None)):
     try:
         funct.delete_wishlist(token,book_id)
         logging.info("Successfully deleted  book from cart")

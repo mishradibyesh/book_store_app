@@ -5452,3 +5452,430 @@ mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'nan' in '
 2022-01-30 19:33:46,135 Connection to database has been established successfully
 2022-01-30 19:33:46,219 Connection to database has been established successfully
 2022-01-30 19:33:46,331 Connection to database has been established successfully
+2022-01-30 19:33:46,474 The --reload flag should not be used in production on Windows.
+2022-01-30 19:33:46,475 Using selector: SelectSelector
+2022-01-30 19:33:46,582 Started server process [21120]
+2022-01-30 19:33:46,583 Waiting for application startup.
+2022-01-30 19:33:46,583 Application startup complete.
+2022-01-30 19:44:52,453 StatReload detected file change in 'service\queries_cart.py'. Reloading...
+2022-01-30 19:44:56,626 Connection to database has been established successfully
+2022-01-30 19:44:56,650 Connection to database has been established successfully
+2022-01-30 19:44:56,671 Connection to database has been established successfully
+2022-01-30 19:44:56,694 Connection to database has been established successfully
+2022-01-30 19:44:56,731 The --reload flag should not be used in production on Windows.
+2022-01-30 19:44:56,731 Using selector: SelectSelector
+2022-01-30 19:44:56,751 Started server process [22248]
+2022-01-30 19:44:56,751 Waiting for application startup.
+2022-01-30 19:44:56,751 Application startup complete.
+2022-01-30 19:50:43,145 Shutting down
+2022-01-30 19:50:43,253 Waiting for application shutdown.
+2022-01-30 19:50:43,253 Application shutdown complete.
+2022-01-30 19:50:43,253 Finished server process [22248]
+2022-01-30 19:50:43,608 Stopping reloader process [10480]
+2022-01-30 20:32:02,234 Connection to database has been established successfully
+2022-01-30 20:32:02,276 Connection to database has been established successfully
+2022-01-30 20:32:02,307 Connection to database has been established successfully
+2022-01-30 20:32:02,376 Connection to database has been established successfully
+2022-01-30 20:32:02,406 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-30 20:32:02,407 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-30 20:32:02,407 Started reloader process [19644] using statreload
+2022-01-30 20:32:03,688 Connection to database has been established successfully
+2022-01-30 20:32:03,706 Connection to database has been established successfully
+2022-01-30 20:32:03,725 Connection to database has been established successfully
+2022-01-30 20:32:03,740 Connection to database has been established successfully
+2022-01-30 20:32:03,774 The --reload flag should not be used in production on Windows.
+2022-01-30 20:32:03,774 Using selector: SelectSelector
+2022-01-30 20:32:03,816 Started server process [20872]
+2022-01-30 20:32:03,816 Waiting for application startup.
+2022-01-30 20:32:03,817 Application startup complete.
+2022-01-30 22:43:08,948 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 22:43:18,912 Connection to database has been established successfully
+2022-01-30 22:43:19,019 Connection to database has been established successfully
+2022-01-30 22:43:19,121 Connection to database has been established successfully
+2022-01-30 22:43:19,246 Connection to database has been established successfully
+2022-01-30 22:43:19,409 The --reload flag should not be used in production on Windows.
+2022-01-30 22:43:19,411 Using selector: SelectSelector
+2022-01-30 22:43:19,539 Started server process [14976]
+2022-01-30 22:43:19,540 Waiting for application startup.
+2022-01-30 22:43:19,542 Application startup complete.
+2022-01-30 22:45:57,254 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 22:46:00,304 Connection to database has been established successfully
+2022-01-30 22:46:00,329 Connection to database has been established successfully
+2022-01-30 22:46:00,356 Connection to database has been established successfully
+2022-01-30 22:46:00,387 Connection to database has been established successfully
+2022-01-30 22:46:00,451 The --reload flag should not be used in production on Windows.
+2022-01-30 22:46:00,452 Using selector: SelectSelector
+2022-01-30 22:46:00,488 Started server process [7448]
+2022-01-30 22:46:00,488 Waiting for application startup.
+2022-01-30 22:46:00,488 Application startup complete.
+2022-01-30 22:47:45,856 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 22:47:48,956 Connection to database has been established successfully
+2022-01-30 22:47:48,983 Connection to database has been established successfully
+2022-01-30 22:47:49,013 Connection to database has been established successfully
+2022-01-30 22:47:49,041 Connection to database has been established successfully
+2022-01-30 22:47:49,094 The --reload flag should not be used in production on Windows.
+2022-01-30 22:47:49,095 Using selector: SelectSelector
+2022-01-30 22:47:49,128 Started server process [21516]
+2022-01-30 22:47:49,129 Waiting for application startup.
+2022-01-30 22:47:49,129 Application startup complete.
+2022-01-30 22:50:02,022 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 22:50:05,055 Connection to database has been established successfully
+2022-01-30 22:50:05,078 Connection to database has been established successfully
+2022-01-30 22:50:05,107 Connection to database has been established successfully
+2022-01-30 22:50:05,139 Connection to database has been established successfully
+2022-01-30 22:50:05,206 The --reload flag should not be used in production on Windows.
+2022-01-30 22:50:05,207 Using selector: SelectSelector
+2022-01-30 22:50:05,250 Started server process [4240]
+2022-01-30 22:50:05,250 Waiting for application startup.
+2022-01-30 22:50:05,250 Application startup complete.
+2022-01-30 22:59:57,492 StatReload detected file change in 'service\queries_order.py'. Reloading...
+2022-01-30 23:00:00,799 Connection to database has been established successfully
+2022-01-30 23:00:00,841 Connection to database has been established successfully
+2022-01-30 23:00:00,873 Connection to database has been established successfully
+2022-01-30 23:00:00,922 Connection to database has been established successfully
+2022-01-30 23:00:01,061 The --reload flag should not be used in production on Windows.
+2022-01-30 23:00:01,062 Using selector: SelectSelector
+2022-01-30 23:00:01,159 Started server process [18136]
+2022-01-30 23:00:01,160 Waiting for application startup.
+2022-01-30 23:00:01,162 Application startup complete.
+2022-01-30 23:02:22,416 StatReload detected file change in 'service\queries_order.py'. Reloading...
+2022-01-30 23:02:25,483 Connection to database has been established successfully
+2022-01-30 23:02:25,533 Connection to database has been established successfully
+2022-01-30 23:02:25,610 Connection to database has been established successfully
+2022-01-30 23:02:25,671 Connection to database has been established successfully
+2022-01-30 23:02:25,787 The --reload flag should not be used in production on Windows.
+2022-01-30 23:02:25,789 Using selector: SelectSelector
+2022-01-30 23:02:25,894 Started server process [8740]
+2022-01-30 23:02:25,895 Waiting for application startup.
+2022-01-30 23:02:25,896 Application startup complete.
+2022-01-30 23:04:01,840 StatReload detected file change in 'main.py'. Reloading...
+2022-01-30 23:04:05,085 Connection to database has been established successfully
+2022-01-30 23:04:05,118 Connection to database has been established successfully
+2022-01-30 23:04:05,162 Connection to database has been established successfully
+2022-01-30 23:04:05,193 Connection to database has been established successfully
+2022-01-30 23:04:05,290 Connection to database has been established successfully
+2022-01-30 23:04:05,432 The --reload flag should not be used in production on Windows.
+2022-01-30 23:04:05,434 Using selector: SelectSelector
+2022-01-30 23:04:05,547 Started server process [22860]
+2022-01-30 23:04:05,548 Waiting for application startup.
+2022-01-30 23:04:05,549 Application startup complete.
+2022-01-30 23:05:59,530 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 23:06:02,967 Connection to database has been established successfully
+2022-01-30 23:06:03,001 Connection to database has been established successfully
+2022-01-30 23:06:03,047 Connection to database has been established successfully
+2022-01-30 23:06:03,088 Connection to database has been established successfully
+2022-01-30 23:06:03,122 Connection to database has been established successfully
+2022-01-30 23:06:03,195 The --reload flag should not be used in production on Windows.
+2022-01-30 23:06:03,196 Using selector: SelectSelector
+2022-01-30 23:06:03,240 Started server process [8668]
+2022-01-30 23:06:03,240 Waiting for application startup.
+2022-01-30 23:06:03,241 Application startup complete.
+2022-01-30 23:07:38,877 Error: verify_user() missing 1 required positional argument: 'token'
+2022-01-30 23:09:37,267 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 23:09:40,788 Connection to database has been established successfully
+2022-01-30 23:09:40,822 Connection to database has been established successfully
+2022-01-30 23:09:40,861 Connection to database has been established successfully
+2022-01-30 23:09:40,898 Connection to database has been established successfully
+2022-01-30 23:09:40,936 Connection to database has been established successfully
+2022-01-30 23:09:41,020 The --reload flag should not be used in production on Windows.
+2022-01-30 23:09:41,022 Using selector: SelectSelector
+2022-01-30 23:09:41,078 Started server process [19992]
+2022-01-30 23:09:41,078 Waiting for application startup.
+2022-01-30 23:09:41,079 Application startup complete.
+2022-01-30 23:10:02,224 Successfully Login into Book Store App!!
+2022-01-30 23:10:02,224 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-30 23:10:38,299 Error: Commands out of sync; you can't run this command now
+2022-01-30 23:10:56,275 Shutting down
+2022-01-30 23:10:56,385 Waiting for application shutdown.
+2022-01-30 23:10:56,385 Application shutdown complete.
+2022-01-30 23:10:56,385 Finished server process [19992]
+2022-01-30 23:10:59,079 Stopping reloader process [19644]
+2022-01-30 23:11:03,386 Connection to database has been established successfully
+2022-01-30 23:11:03,417 Connection to database has been established successfully
+2022-01-30 23:11:03,447 Connection to database has been established successfully
+2022-01-30 23:11:03,473 Connection to database has been established successfully
+2022-01-30 23:11:03,498 Connection to database has been established successfully
+2022-01-30 23:11:03,547 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-30 23:11:03,547 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-30 23:11:03,548 Started reloader process [20880] using statreload
+2022-01-30 23:11:06,590 Connection to database has been established successfully
+2022-01-30 23:11:06,630 Connection to database has been established successfully
+2022-01-30 23:11:06,676 Connection to database has been established successfully
+2022-01-30 23:11:06,716 Connection to database has been established successfully
+2022-01-30 23:11:06,749 Connection to database has been established successfully
+2022-01-30 23:11:06,831 The --reload flag should not be used in production on Windows.
+2022-01-30 23:11:06,831 Using selector: SelectSelector
+2022-01-30 23:11:06,864 Started server process [20740]
+2022-01-30 23:11:06,864 Waiting for application startup.
+2022-01-30 23:11:06,867 Application startup complete.
+2022-01-30 23:11:18,936 Error: Commands out of sync; you can't run this command now
+2022-01-30 23:22:21,204 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-30 23:22:27,403 Connection to database has been established successfully
+2022-01-30 23:22:27,432 Connection to database has been established successfully
+2022-01-30 23:22:27,490 Connection to database has been established successfully
+2022-01-30 23:22:27,563 Connection to database has been established successfully
+2022-01-30 23:22:27,604 Connection to database has been established successfully
+2022-01-30 23:22:27,652 The --reload flag should not be used in production on Windows.
+2022-01-30 23:22:27,653 Using selector: SelectSelector
+2022-01-30 23:22:27,722 Started server process [9660]
+2022-01-30 23:22:27,722 Waiting for application startup.
+2022-01-30 23:22:27,722 Application startup complete.
+2022-01-30 23:22:28,555 Order placed successfully
+2022-01-30 23:22:28,555 Order placed for User id  is : 1
+2022-01-30 23:26:04,696 Successfully Login into Book Store App!!
+2022-01-30 23:26:04,696 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-30 23:26:30,487 Successfully Get All Books details in cart
+2022-01-30 23:27:28,222 StatReload detected file change in 'routers\cart_api.py'. Reloading...
+2022-01-30 23:27:30,211 Connection to database has been established successfully
+2022-01-30 23:27:30,230 Connection to database has been established successfully
+2022-01-30 23:27:30,253 Connection to database has been established successfully
+2022-01-30 23:27:30,368 Connection to database has been established successfully
+2022-01-30 23:27:30,385 Connection to database has been established successfully
+2022-01-30 23:27:30,429 The --reload flag should not be used in production on Windows.
+2022-01-30 23:27:30,429 Using selector: SelectSelector
+2022-01-30 23:27:30,451 Started server process [10280]
+2022-01-30 23:27:30,451 Waiting for application startup.
+2022-01-30 23:27:30,451 Application startup complete.
+2022-01-30 23:27:37,415 Successfully Get All Books details in cart
+2022-01-30 23:27:49,327 Order placed successfully
+2022-01-30 23:27:49,327 Order placed for User id  is : 1
+2022-01-30 23:28:04,122 Successfully Get All Books details in cart
+2022-01-30 23:28:56,286 Successfully Get All Books details in cart
+2022-01-30 23:30:16,001 Successfully retrieved all users Details 
+2022-01-30 23:30:46,484 Successfully Login into Book Store App!!
+2022-01-30 23:30:46,484 User Details are : [{'user_id': 3, 'user_name': 'shivam', 'user_password': 'Shivam@3', 'user_email': 'shivam@3', 'mobile': '674883748', 'is_verified': 0}]
+2022-01-30 23:31:07,814 Order placed successfully
+2022-01-30 23:31:07,814 Order placed for User id  is : 3
+2022-01-30 23:31:19,196 Successfully Get All Books details in cart
+2022-01-30 23:33:57,772 Successfully Login into Book Store App!!
+2022-01-30 23:33:57,772 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-30 23:34:16,220 Successfully Get All Books details in cart
+2022-01-30 23:34:35,069 Order placed successfully
+2022-01-30 23:34:35,069 Order placed for User id  is : 1
+2022-01-31 00:02:10,751 Successfully Get All Books details in cart
+2022-01-31 00:02:32,337 Order placed successfully
+2022-01-31 00:02:32,337 Order placed for User id  is : 1
+2022-01-31 00:02:38,503 Successfully Get All Books details in cart
+2022-01-31 00:07:09,152 Shutting down
+2022-01-31 00:07:09,260 Waiting for application shutdown.
+2022-01-31 00:07:09,261 Application shutdown complete.
+2022-01-31 00:07:09,262 Finished server process [10280]
+2022-01-31 00:07:10,328 Stopping reloader process [20880]
+2022-01-31 00:07:21,944 Connection to database has been established successfully
+2022-01-31 00:07:21,994 Connection to database has been established successfully
+2022-01-31 00:07:22,043 Connection to database has been established successfully
+2022-01-31 00:07:22,099 Connection to database has been established successfully
+2022-01-31 00:07:22,152 Connection to database has been established successfully
+2022-01-31 00:07:22,220 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-31 00:07:22,221 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-31 00:07:22,222 Started reloader process [23928] using statreload
+2022-01-31 00:07:25,670 Connection to database has been established successfully
+2022-01-31 00:07:25,702 Connection to database has been established successfully
+2022-01-31 00:07:25,742 Connection to database has been established successfully
+2022-01-31 00:07:25,804 Connection to database has been established successfully
+2022-01-31 00:07:25,850 Connection to database has been established successfully
+2022-01-31 00:07:25,950 The --reload flag should not be used in production on Windows.
+2022-01-31 00:07:25,951 Using selector: SelectSelector
+2022-01-31 00:07:26,606 Started server process [24112]
+2022-01-31 00:07:26,607 Waiting for application startup.
+2022-01-31 00:07:26,608 Application startup complete.
+2022-01-31 00:07:41,019 Order placed successfully
+2022-01-31 00:07:41,019 Order placed for User id  is : 1
+2022-01-31 00:07:56,486 Successfully Get All Books details in cart
+2022-01-31 00:09:03,588 StatReload detected file change in 'routers\cart_api.py'. Reloading...
+2022-01-31 00:09:07,052 Connection to database has been established successfully
+2022-01-31 00:09:07,084 Connection to database has been established successfully
+2022-01-31 00:09:07,118 Connection to database has been established successfully
+2022-01-31 00:09:07,159 Connection to database has been established successfully
+2022-01-31 00:09:07,190 Connection to database has been established successfully
+2022-01-31 00:09:07,255 The --reload flag should not be used in production on Windows.
+2022-01-31 00:09:07,256 Using selector: SelectSelector
+2022-01-31 00:09:07,298 Started server process [6452]
+2022-01-31 00:09:07,299 Waiting for application startup.
+2022-01-31 00:09:07,299 Application startup complete.
+2022-01-31 00:09:13,318 Successfully Get All Books details in cart
+2022-01-31 00:11:09,533 Successfully Get All Books details in cart
+2022-01-31 00:12:07,541 Successfully Updated Book Quantity In Cart
+2022-01-31 00:12:07,541 Updated book quantity 
+2022-01-31 00:12:24,062 Successfully Updated Book Quantity In Cart
+2022-01-31 00:12:24,062 Updated book quantity 
+2022-01-31 00:12:30,718 Successfully Get All Books details in cart
+2022-01-31 00:12:40,758 Order placed successfully
+2022-01-31 00:12:40,758 Order placed for User id  is : 1
+2022-01-31 00:12:49,078 Successfully Get All Books details in cart
+2022-01-31 07:20:41,904 Successfully Get All Books details in cart
+2022-01-31 07:20:56,735 Successfully retrieved all users Details 
+2022-01-31 07:21:46,302 Successfully Login into Book Store App!!
+2022-01-31 07:21:46,302 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-31 07:21:59,918 Successfully Get All Books details in cart
+2022-01-31 07:24:26,970 StatReload detected file change in 'service\queries_cart.py'. Reloading...
+2022-01-31 07:24:32,787 Connection to database has been established successfully
+2022-01-31 07:24:32,813 Connection to database has been established successfully
+2022-01-31 07:24:32,851 Connection to database has been established successfully
+2022-01-31 07:24:32,896 Connection to database has been established successfully
+2022-01-31 07:24:32,939 Connection to database has been established successfully
+2022-01-31 07:24:32,975 The --reload flag should not be used in production on Windows.
+2022-01-31 07:24:32,975 Using selector: SelectSelector
+2022-01-31 07:24:33,033 Started server process [19756]
+2022-01-31 07:24:33,033 Waiting for application startup.
+2022-01-31 07:24:33,033 Application startup complete.
+2022-01-31 07:24:45,614 Successfully Get All Books From Wishlist
+2022-01-31 07:24:45,614 User Details are : [{'title': 'Angels & Demons - Movie Tie-In', 'author': 'Dan Brown', 'price': 462.0, 'image': 'http://books.google.com/books/content?id=GXznEnKwTdAC&printsec=frontcover&img=1&zoom=5'}, {'title': 'Indian Superfoods', 'author': 'Rujuta Divekar', 'price': 495.0, 'image': 'http://books.google.com/books/content?id=4oFoDwAAQBAJ&printsec=frontcover&img=1&zoom=5'}, {'title': 'Origin', 'author': 'Dan Brown', 'price': 174.0, 'image': 'http://books.google.com/books/content?id=95wnDQAAQBAJ&printsec=frontcover&img=1&zoom=5'}]
+2022-01-31 07:26:27,920 Successfully added  to cart
+2022-01-31 07:27:54,797 StatReload detected file change in 'routers\cart_api.py'. Reloading...
+2022-01-31 07:27:56,400 Connection to database has been established successfully
+2022-01-31 07:27:56,417 Connection to database has been established successfully
+2022-01-31 07:27:56,437 Connection to database has been established successfully
+2022-01-31 07:27:56,457 Connection to database has been established successfully
+2022-01-31 07:27:56,473 Connection to database has been established successfully
+2022-01-31 07:27:56,518 The --reload flag should not be used in production on Windows.
+2022-01-31 07:27:56,519 Using selector: SelectSelector
+2022-01-31 07:27:56,541 Started server process [21400]
+2022-01-31 07:27:56,542 Waiting for application startup.
+2022-01-31 07:27:56,542 Application startup complete.
+2022-01-31 07:28:02,019 Successfully Get All Books details in cart
+2022-01-31 07:28:36,540 Order placed successfully
+2022-01-31 07:28:36,540 Order placed for User id  is : 1
+2022-01-31 07:28:50,984 Successfully Get All Books details in cart
+2022-01-31 07:30:10,907 Successfully Get All Books details in cart
+2022-01-31 07:31:56,738 Successfully added  to cart
+2022-01-31 07:32:01,255 Successfully Get All Books details in cart
+2022-01-31 07:34:24,052 Successfully Get All Books details in cart
+2022-01-31 07:34:42,733 Shutting down
+2022-01-31 07:34:42,843 Waiting for application shutdown.
+2022-01-31 07:34:42,844 Application shutdown complete.
+2022-01-31 07:34:42,845 Finished server process [21400]
+2022-01-31 07:34:43,997 Stopping reloader process [23928]
+2022-01-31 07:34:45,648 Connection to database has been established successfully
+2022-01-31 07:34:45,663 Connection to database has been established successfully
+2022-01-31 07:34:45,679 Connection to database has been established successfully
+2022-01-31 07:34:45,695 Connection to database has been established successfully
+2022-01-31 07:34:45,709 Connection to database has been established successfully
+2022-01-31 07:34:45,738 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-31 07:34:45,739 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-31 07:34:45,739 Started reloader process [9436] using statreload
+2022-01-31 07:34:47,094 Connection to database has been established successfully
+2022-01-31 07:34:47,110 Connection to database has been established successfully
+2022-01-31 07:34:47,127 Connection to database has been established successfully
+2022-01-31 07:34:47,149 Connection to database has been established successfully
+2022-01-31 07:34:47,163 Connection to database has been established successfully
+2022-01-31 07:34:47,209 The --reload flag should not be used in production on Windows.
+2022-01-31 07:34:47,209 Using selector: SelectSelector
+2022-01-31 07:34:47,233 Started server process [8272]
+2022-01-31 07:34:47,233 Waiting for application startup.
+2022-01-31 07:34:47,233 Application startup complete.
+2022-01-31 07:35:01,088 Error: There is no result for this user_id
+2022-01-31 07:41:22,674 Error: There is no result for this user_id
+2022-01-31 07:42:06,918 Successfully retrieved  book Details
+2022-01-31 07:42:43,928 Successfully added  to cart
+2022-01-31 07:42:59,109 Order placed successfully
+2022-01-31 07:42:59,109 Order placed for User id  is : 1
+2022-01-31 07:43:08,102 Error: There is no result for this user_id
+2022-01-31 07:45:31,946 Successfully retrieved  book Details
+2022-01-31 07:46:11,716 Successfully retrieved  book Details
+2022-01-31 07:51:22,195 Successfully retrieved  book Details
+2022-01-31 07:52:19,451 Successfully retrieved  book Details
+2022-01-31 07:52:29,322 Shutting down
+2022-01-31 07:52:29,431 Waiting for application shutdown.
+2022-01-31 07:52:29,431 Application shutdown complete.
+2022-01-31 07:52:29,431 Finished server process [8272]
+2022-01-31 07:52:30,793 Stopping reloader process [9436]
+2022-01-31 07:52:33,752 Connection to database has been established successfully
+2022-01-31 07:52:33,766 Connection to database has been established successfully
+2022-01-31 07:52:33,781 Connection to database has been established successfully
+2022-01-31 07:52:33,803 Connection to database has been established successfully
+2022-01-31 07:52:33,820 Connection to database has been established successfully
+2022-01-31 07:52:33,854 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-31 07:52:33,854 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-31 07:52:33,855 Started reloader process [9776] using statreload
+2022-01-31 07:52:35,302 Connection to database has been established successfully
+2022-01-31 07:52:35,325 Connection to database has been established successfully
+2022-01-31 07:52:35,340 Connection to database has been established successfully
+2022-01-31 07:52:35,358 Connection to database has been established successfully
+2022-01-31 07:52:35,372 Connection to database has been established successfully
+2022-01-31 07:52:35,413 The --reload flag should not be used in production on Windows.
+2022-01-31 07:52:35,414 Using selector: SelectSelector
+2022-01-31 07:52:35,434 Started server process [9492]
+2022-01-31 07:52:35,434 Waiting for application startup.
+2022-01-31 07:52:35,434 Application startup complete.
+2022-01-31 07:52:51,459 Successfully retrieved  book Details
+2022-01-31 07:53:50,864 Successfully Login into Book Store App!!
+2022-01-31 07:53:50,864 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-31 07:54:13,178 Successfully added  to cart
+2022-01-31 07:54:24,370 Successfully Get All Books details in cart
+2022-01-31 07:54:47,489 Order placed successfully
+2022-01-31 07:54:47,489 Order placed for User id  is : 1
+2022-01-31 07:55:01,204 Successfully Get All Books details in cart
+2022-01-31 07:55:39,787 Shutting down
+2022-01-31 07:55:39,896 Waiting for application shutdown.
+2022-01-31 07:55:39,896 Application shutdown complete.
+2022-01-31 07:55:39,896 Finished server process [9492]
+2022-01-31 07:55:40,727 Stopping reloader process [9776]
+2022-01-31 07:55:42,551 Connection to database has been established successfully
+2022-01-31 07:55:42,567 Connection to database has been established successfully
+2022-01-31 07:55:42,585 Connection to database has been established successfully
+2022-01-31 07:55:42,602 Connection to database has been established successfully
+2022-01-31 07:55:42,616 Connection to database has been established successfully
+2022-01-31 07:55:42,650 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-01-31 07:55:42,651 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-01-31 07:55:42,651 Started reloader process [8156] using statreload
+2022-01-31 07:55:44,559 Connection to database has been established successfully
+2022-01-31 07:55:44,578 Connection to database has been established successfully
+2022-01-31 07:55:44,609 Connection to database has been established successfully
+2022-01-31 07:55:44,629 Connection to database has been established successfully
+2022-01-31 07:55:44,647 Connection to database has been established successfully
+2022-01-31 07:55:44,695 The --reload flag should not be used in production on Windows.
+2022-01-31 07:55:44,695 Using selector: SelectSelector
+2022-01-31 07:55:44,720 Started server process [6596]
+2022-01-31 07:55:44,720 Waiting for application startup.
+2022-01-31 07:55:44,721 Application startup complete.
+2022-01-31 07:55:49,932 Error: There is no result for this user_id
+2022-01-31 07:56:04,722 Successfully retrieved  book Details
+2022-01-31 07:56:22,312 Successfully added  to cart
+2022-01-31 07:57:08,938 Successfully added  to cart
+2022-01-31 08:00:39,759 StatReload detected file change in 'routers\wishlist_api.py'. Reloading...
+2022-01-31 08:00:41,699 Connection to database has been established successfully
+2022-01-31 08:00:41,734 Connection to database has been established successfully
+2022-01-31 08:00:41,756 Connection to database has been established successfully
+2022-01-31 08:00:41,781 Connection to database has been established successfully
+2022-01-31 08:00:41,803 Connection to database has been established successfully
+2022-01-31 08:00:41,855 The --reload flag should not be used in production on Windows.
+2022-01-31 08:00:41,856 Using selector: SelectSelector
+2022-01-31 08:00:41,877 Started server process [2792]
+2022-01-31 08:00:41,878 Waiting for application startup.
+2022-01-31 08:00:41,878 Application startup complete.
+2022-01-31 08:01:15,202 StatReload detected file change in 'routers\cart_api.py'. Reloading...
+2022-01-31 08:01:16,997 Connection to database has been established successfully
+2022-01-31 08:01:17,016 Connection to database has been established successfully
+2022-01-31 08:01:17,034 Connection to database has been established successfully
+2022-01-31 08:01:17,058 Connection to database has been established successfully
+2022-01-31 08:01:17,076 Connection to database has been established successfully
+2022-01-31 08:01:17,127 The --reload flag should not be used in production on Windows.
+2022-01-31 08:01:17,127 Using selector: SelectSelector
+2022-01-31 08:01:17,152 Started server process [13908]
+2022-01-31 08:01:17,152 Waiting for application startup.
+2022-01-31 08:01:17,153 Application startup complete.
+2022-01-31 08:05:49,805 StatReload detected file change in 'routers\order_api.py'. Reloading...
+2022-01-31 08:05:51,265 Connection to database has been established successfully
+2022-01-31 08:05:51,281 Connection to database has been established successfully
+2022-01-31 08:05:51,299 Connection to database has been established successfully
+2022-01-31 08:05:51,317 Connection to database has been established successfully
+2022-01-31 08:05:51,334 Connection to database has been established successfully
+2022-01-31 08:05:51,385 The --reload flag should not be used in production on Windows.
+2022-01-31 08:05:51,386 Using selector: SelectSelector
+2022-01-31 08:05:51,408 Started server process [20560]
+2022-01-31 08:05:51,408 Waiting for application startup.
+2022-01-31 08:05:51,409 Application startup complete.
+2022-01-31 08:15:25,219 Successfully Login into Book Store App!!
+2022-01-31 08:15:25,219 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-31 08:16:10,161 Order placed successfully
+2022-01-31 08:16:10,162 Order placed for User id  is : 1
+2022-01-31 08:16:19,360 Order placed successfully
+2022-01-31 08:16:19,360 Order placed for User id  is : 1
+2022-01-31 08:17:11,249 Error: Credentials Are incorrect, Please Try again!
+2022-01-31 08:17:23,583 Successfully Login into Book Store App!!
+2022-01-31 08:17:23,583 User Details are : [{'user_id': 1, 'user_name': 'Dibyesh Mishra', 'user_password': 'Dibyesh@3', 'user_email': 'dibyesh@gmail.com', 'mobile': '8577858332', 'is_verified': 1}]
+2022-01-31 08:17:45,848 Successfully added  to cart
+2022-01-31 08:17:56,697 Successfully Get All Books details in cart
+2022-01-31 08:18:14,600 Order placed successfully
+2022-01-31 08:18:14,600 Order placed for User id  is : 1
