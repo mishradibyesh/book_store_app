@@ -35,9 +35,9 @@ class CartFunctionality:
         get_cart_query = '''select books.id,title,author,price,image,cart.user_id,cart.quantity from books
                                     inner join cart on cart.book_id = books.id where user_id=%d;''' % user_id
         self.my_cursor.execute(get_cart_query)
-        wish_list = [i for i in self.my_cursor]
-        if wish_list:
-            return wish_list
+        cart = [i for i in self.my_cursor]
+        if cart:
+            return cart
         else:
             raise Exception("There is no result for this user_id")
 
@@ -51,7 +51,7 @@ class CartFunctionality:
         self.my_cursor.execute(get_wishlist_query)
         self.connection.commit()
 
-    def update_quantity_of_book_in_cart(self,token, book_id, quantity):
+    def update_quantity_of_book_in_cart(self, token, book_id, quantity):
         """
             desc: deleting book from cart
             param:  user_id, book_id
