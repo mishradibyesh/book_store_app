@@ -7578,3 +7578,30 @@ mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'nan' in '
 2022-02-01 03:51:00,611 Application shutdown complete.
 2022-02-01 03:51:00,611 Finished server process [1844]
 2022-02-01 03:51:01,191 Stopping reloader process [17832]
+2022-02-01 08:20:54,081 Connection to database has been established successfully
+2022-02-01 08:20:54,101 Connection to database has been established successfully
+2022-02-01 08:20:54,118 Connection to database has been established successfully
+2022-02-01 08:20:54,139 Connection to database has been established successfully
+2022-02-01 08:20:54,148 Will watch for changes in these directories: ['D:\\OneDrive\\Desktop\\book_store_app']
+2022-02-01 08:20:54,149 Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2022-02-01 08:20:54,150 Started reloader process [15740] using statreload
+2022-02-01 08:20:56,123 Connection to database has been established successfully
+2022-02-01 08:20:56,140 Connection to database has been established successfully
+2022-02-01 08:20:56,156 Connection to database has been established successfully
+2022-02-01 08:20:56,172 Connection to database has been established successfully
+2022-02-01 08:20:56,188 The --reload flag should not be used in production on Windows.
+2022-02-01 08:20:56,188 Using selector: SelectSelector
+2022-02-01 08:20:56,285 Started server process [17188]
+2022-02-01 08:20:56,285 Waiting for application startup.
+2022-02-01 08:20:56,286 Application startup complete.
+2022-02-01 08:21:39,005 StatReload detected file change in 'main.py'. Reloading...
+2022-02-01 08:21:40,737 Connection to database has been established successfully
+2022-02-01 08:21:40,753 Connection to database has been established successfully
+2022-02-01 08:21:40,771 Connection to database has been established successfully
+2022-02-01 08:21:40,787 Connection to database has been established successfully
+2022-02-01 08:21:40,821 Connection to database has been established successfully
+2022-02-01 08:21:40,838 The --reload flag should not be used in production on Windows.
+2022-02-01 08:21:40,839 Using selector: SelectSelector
+2022-02-01 08:21:40,861 Started server process [12684]
+2022-02-01 08:21:40,861 Waiting for application startup.
+2022-02-01 08:21:40,862 Application startup complete.

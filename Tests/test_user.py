@@ -49,7 +49,8 @@ class TestForUserApi:
 
     def test_if_verification_is_successful(self):
         response = client.get(f"/users/verification/", headers={
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwaXJlcyI6MTY0MzY1NTg0Ni44OTM5MTE0fQ.kT1__XdTU_tHZmD8zCZRVWbS5Ir57ITBCPhZSskdSsg"})
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwaXJlcyI6MTY0MzY1NTg0Ni44OTM5MTE0fQ.kT1__"
+                     "XdTU_tHZmD8zCZRVWbS5Ir57ITBCPhZSskdSsg"})
         assert response.json()['message'] == "successfully verified"
 
     def test_if_verification_is_not_successful(self):
