@@ -8373,3 +8373,8 @@ mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'nan' in '
 2022-02-01 23:54:52,625 Connection to database has been established successfully
 2022-02-01 23:54:52,651 Connection to database has been established successfully
 2022-02-01 23:54:52,669 Connection to database has been established successfully
+2022-02-01 23:54:52,693 The --reload flag should not be used in production on Windows.
+2022-02-01 23:54:52,694 Using selector: SelectSelector
+2022-02-01 23:54:52,727 Started server process [23124]
+2022-02-01 23:54:52,728 Waiting for application startup.
+2022-02-01 23:54:52,728 Application startup complete.
