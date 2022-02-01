@@ -8,7 +8,6 @@ from jwt_token.token_registeration import TokenForLogin
 from schema.cart_model import Cart
 from service.queries_user import UserFunctionality
 from service.queries_cart import CartFunctionality
-from schema.wislist_model import Wishlist
 route = APIRouter(prefix="/cart", tags=["CART"])
 function = UserFunctionality()
 token_functionality = TokenForLogin()
@@ -23,7 +22,7 @@ def get_cart_items(token: str = Header(None)):
     try:
         cart = funct.get_user_cart(token)
         logging.info("Successfully Get All Books details in cart")
-        return {"status": 200, "message": "Successfully fetched wishlist", "data": cart}
+        return {"status": 200, "message": "Successfully fetched cart", "data": cart}
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 404, "message": f"Error : {e}"
@@ -61,9 +60,9 @@ def update_quantity(cart: Cart, token: str = Header(None)):
 
 
 @route.delete("/delete/")
-def delete_from_wishlist(book_id: int, token: str = Header(None)):
+def delete_from_cart(book_id: int, token: str = Header(None)):
     try:
-        funct.delete_wishlist(token,book_id)
+        funct.delete_cart(token,book_id)
         logging.info("Successfully deleted  book from cart")
         return {"status": 200, "message": "Successfully deleted  book from cart", "book id": book_id}
     except Exception as e:

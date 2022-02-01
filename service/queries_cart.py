@@ -63,7 +63,7 @@ class CartFunctionality:
         self.connection.commit()
         return quantity
 
-    def delete_wishlist(self, token, book_id):
+    def delete_cart(self, token, book_id):
         """
             desc: query to delete the book for a user_id from cart
             param: token , book_id

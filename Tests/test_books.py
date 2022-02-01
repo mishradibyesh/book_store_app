@@ -24,7 +24,7 @@ class TestForBookApi:
         assert response.json()["message"] == "Successfully retrieved  book Details"
 
     @pytest.mark.parametrize('book_id', [56])
-    def test_one_book_data_if_retrieved(self, book_id):
+    def test_one_book_data_if_not_retrieved(self, book_id):
         response = client.get(f"/books/?book_id={book_id}")
         assert response.status_code == 200
         assert response.json()["message"] != "Successfully retrieved  book Details"
