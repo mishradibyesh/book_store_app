@@ -66,7 +66,7 @@ async def add_user(user: User):
         return {"status": 500, "message": f"Error : {error}"}
 
 
-@route.get("/verification/{token}")
+@route.get("/verification/")
 async def user_verification(token: str = Header(None)):
     """
        desc: created api to verify  with token
@@ -128,7 +128,7 @@ def user_login(email_id: str, password: str):
         logging.info("Successfully Login into Book Store App!!")
         logging.debug(f"User Details are : {user_details}")
         user_token = token_functionality.encode_id_with_expiry(user_details[0]["user_id"])
-        return {"status": 200, "message": "Successfully Generated the token", "token": user_token, "data": user_details}
+        return {"status": 200, "message": "Successfully logged in and  Generated the token", "token": user_token, "data": user_details}
     except Exception as e:
         logging.error(f"Error: {e}")
 

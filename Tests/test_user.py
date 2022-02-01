@@ -17,11 +17,6 @@ class TestForUserApi:
         assert response.status_code == 200
         assert response.json()["message"] == "Successfully retrieved  all users Details"
 
-    def test_all_data_in_user_table_if_not_retrieved(self):
-        response = client.get("/users/all/")
-        assert response.status_code == 200
-        assert response.json()["message"] != "data not found"
-
     @pytest.mark.parametrize('user_id', [2])
     def test_one_user_data(self, user_id):
         response = client.get(f"/users/?user_id={user_id}")
@@ -35,27 +30,27 @@ class TestForUserApi:
         assert response.json()["message"] != "Successfully retrieved  user Details"
 
     @pytest.mark.parametrize('user_data', [
-        {"user_name": "ramuesh", "user_password": "1k23", "user_email": "abc2d@gmail.com", "mobile": 79357393}])
+        {"user_name": "arvind", "user_password": "123", "user_email": "arvindd@gmail.com", "mobile": 73357393}])
     def test_if_user_added_to_db(self, user_data):
-        response = client.post("/users/registration/", json=user_data)
+        response = client.post("/users/registration ", json=user_data)
         assert response.json()["message"] == "Successfully added The user Details and sent the mail"
 
     @pytest.mark.parametrize('user_data', [
         {"user_name": "ramesh", "user_password": "123", "user_email": "abcd@gmail.com", "mobile": 78357393}])
     def test_if_user_is_not_added_to_db(self, user_data):
         response = client.post("/users/registration/", json=user_data)
-        assert response.status_code == 200
+        assert response.status_code == 307
         assert response.json()["message"] != "Successfully added The user Details and sent the mail"
 
     def test_if_verification_is_successful(self):
-        response = client.get(f"/users/verification/", headers={
-            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwaXJlcyI6MTY0MzY1NTg0Ni44OTM5MTE0fQ.kT1__"
-                     "XdTU_tHZmD8zCZRVWbS5Ir57ITBCPhZSskdSsg"})
+        response = client.get("/users/verification/", headers={
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZXhwaXJlcyI6MTY0MzcwMjg0OC4wOTM3Njg2fQ."
+                     "P9NgeHvY06iM9Wo4TblBhkbBcMY5IWRSJr9eCwgALMk"})
         assert response.json()['message'] == "successfully verified"
 
     def test_if_verification_is_not_successful(self):
-        response = client.get(f"/users/verification/", headers={
-            "token": ".kT1__XdTU_tHZmD8zCZRVWbS5Ir57ITBCPhZSskdSsg"})
+        response = client.get("/users/verification/", headers={
+            "token": "h.kT1__XdTU_tHZmD8zCZRVWbS5Ir57ITBCPhZSskdSsg"})
         assert response.json()['message'] != "successfully verified"
 
     @pytest.mark.parametrize('user_id,user_data', [
@@ -72,14 +67,14 @@ class TestForUserApi:
         # assert response.status_code == 200
         assert response.json()["message"] != "Successfully updated the user Details"
 
-    @pytest.mark.parametrize('user_id', [(4)])
-    def test_if_employee_id_is_deleted_from_database(self, user_id):
+    @pytest.mark.parametrize('user_id', [(46)])
+    def test_if_user_id_is_deleted_from_database(self, user_id):
         response = client.delete(f"/users/delete/{user_id}")
         assert response.status_code == 200
         assert response.json()["message"] == "Successfully deleted one user Details"
 
     @pytest.mark.parametrize('user_id', [(4)])
-    def test_if_employee_id_is_not_deleted_from_database(self, user_id):
+    def test_if_user_id_is_not_deleted_from_database(self, user_id):
         response = client.delete(f"/users/delete/{user_id}")
         assert response.status_code == 200
         assert response.json()["message"] != "Successfully deleted one user Details"
