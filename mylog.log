@@ -8087,3 +8087,191 @@ mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'nan' in '
 2022-02-01 21:57:17,643 Started server process [21964]
 2022-02-01 21:57:17,644 Waiting for application startup.
 2022-02-01 21:57:17,644 Application startup complete.
+2022-02-01 22:09:28,879 deleted user by using user_id 54
+2022-02-01 22:11:30,809 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:11:34,418 Connection to database has been established successfully
+2022-02-01 22:11:34,452 Connection to database has been established successfully
+2022-02-01 22:11:34,488 Connection to database has been established successfully
+2022-02-01 22:11:34,533 Connection to database has been established successfully
+2022-02-01 22:11:34,570 Connection to database has been established successfully
+2022-02-01 22:11:34,597 The --reload flag should not be used in production on Windows.
+2022-02-01 22:11:34,599 Using selector: SelectSelector
+2022-02-01 22:11:34,641 Started server process [4924]
+2022-02-01 22:11:34,641 Waiting for application startup.
+2022-02-01 22:11:34,642 Application startup complete.
+2022-02-01 22:17:29,131 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:17:31,958 Connection to database has been established successfully
+2022-02-01 22:17:31,984 Connection to database has been established successfully
+2022-02-01 22:17:32,010 Connection to database has been established successfully
+2022-02-01 22:17:32,046 Connection to database has been established successfully
+2022-02-01 22:17:32,070 Connection to database has been established successfully
+2022-02-01 22:17:32,092 The --reload flag should not be used in production on Windows.
+2022-02-01 22:17:32,093 Using selector: SelectSelector
+2022-02-01 22:17:32,126 Started server process [15516]
+2022-02-01 22:17:32,126 Waiting for application startup.
+2022-02-01 22:17:32,126 Application startup complete.
+2022-02-01 22:27:20,364 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:27:23,201 Connection to database has been established successfully
+2022-02-01 22:27:23,225 Connection to database has been established successfully
+2022-02-01 22:27:23,253 Connection to database has been established successfully
+2022-02-01 22:27:23,279 Connection to database has been established successfully
+2022-02-01 22:27:23,300 Connection to database has been established successfully
+2022-02-01 22:27:23,323 The --reload flag should not be used in production on Windows.
+2022-02-01 22:27:23,324 Using selector: SelectSelector
+2022-02-01 22:27:23,358 Started server process [19200]
+2022-02-01 22:27:23,358 Waiting for application startup.
+2022-02-01 22:27:23,359 Application startup complete.
+2022-02-01 22:36:05,422 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:36:08,970 Connection to database has been established successfully
+2022-02-01 22:36:08,998 Connection to database has been established successfully
+2022-02-01 22:36:09,028 Connection to database has been established successfully
+2022-02-01 22:36:09,056 Connection to database has been established successfully
+2022-02-01 22:36:09,082 Connection to database has been established successfully
+2022-02-01 22:36:09,108 The --reload flag should not be used in production on Windows.
+2022-02-01 22:36:09,109 Using selector: SelectSelector
+2022-02-01 22:36:09,149 Started server process [22488]
+2022-02-01 22:36:09,149 Waiting for application startup.
+2022-02-01 22:36:09,149 Application startup complete.
+2022-02-01 22:39:55,417 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:39:58,148 Connection to database has been established successfully
+2022-02-01 22:39:58,179 Connection to database has been established successfully
+2022-02-01 22:39:58,214 Connection to database has been established successfully
+2022-02-01 22:39:58,238 Connection to database has been established successfully
+2022-02-01 22:39:58,258 Connection to database has been established successfully
+2022-02-01 22:39:58,281 The --reload flag should not be used in production on Windows.
+2022-02-01 22:39:58,282 Using selector: SelectSelector
+2022-02-01 22:39:58,319 Started server process [23100]
+2022-02-01 22:39:58,319 Waiting for application startup.
+2022-02-01 22:39:58,319 Application startup complete.
+2022-02-01 22:40:19,742 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:40:22,492 Connection to database has been established successfully
+2022-02-01 22:40:22,526 Connection to database has been established successfully
+2022-02-01 22:40:22,555 Connection to database has been established successfully
+2022-02-01 22:40:22,582 Connection to database has been established successfully
+2022-02-01 22:40:22,603 Connection to database has been established successfully
+2022-02-01 22:40:22,627 The --reload flag should not be used in production on Windows.
+2022-02-01 22:40:22,627 Using selector: SelectSelector
+2022-02-01 22:40:22,662 Started server process [22976]
+2022-02-01 22:40:22,662 Waiting for application startup.
+2022-02-01 22:40:22,662 Application startup complete.
+2022-02-01 22:40:55,167 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:40:57,899 Connection to database has been established successfully
+2022-02-01 22:40:57,931 Connection to database has been established successfully
+2022-02-01 22:40:57,959 Connection to database has been established successfully
+2022-02-01 22:40:57,983 Connection to database has been established successfully
+2022-02-01 22:40:58,005 Connection to database has been established successfully
+2022-02-01 22:40:58,028 The --reload flag should not be used in production on Windows.
+2022-02-01 22:40:58,029 Using selector: SelectSelector
+2022-02-01 22:40:58,067 Started server process [25248]
+2022-02-01 22:40:58,067 Waiting for application startup.
+2022-02-01 22:40:58,068 Application startup complete.
+2022-02-01 22:43:14,981 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:43:17,683 Connection to database has been established successfully
+2022-02-01 22:43:17,708 Connection to database has been established successfully
+2022-02-01 22:43:17,735 Connection to database has been established successfully
+2022-02-01 22:43:17,764 Connection to database has been established successfully
+2022-02-01 22:43:17,794 Connection to database has been established successfully
+2022-02-01 22:43:17,820 The --reload flag should not be used in production on Windows.
+2022-02-01 22:43:17,821 Using selector: SelectSelector
+2022-02-01 22:43:17,865 Started server process [7336]
+2022-02-01 22:43:17,866 Waiting for application startup.
+2022-02-01 22:43:17,866 Application startup complete.
+2022-02-01 22:45:43,741 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:45:46,706 Connection to database has been established successfully
+2022-02-01 22:45:46,731 Connection to database has been established successfully
+2022-02-01 22:45:46,757 Connection to database has been established successfully
+2022-02-01 22:45:46,783 Connection to database has been established successfully
+2022-02-01 22:45:46,804 Connection to database has been established successfully
+2022-02-01 22:45:46,831 The --reload flag should not be used in production on Windows.
+2022-02-01 22:45:46,831 Using selector: SelectSelector
+2022-02-01 22:45:46,876 Started server process [7412]
+2022-02-01 22:45:46,877 Waiting for application startup.
+2022-02-01 22:45:46,877 Application startup complete.
+2022-02-01 22:46:15,703 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:46:18,410 Connection to database has been established successfully
+2022-02-01 22:46:18,434 Connection to database has been established successfully
+2022-02-01 22:46:18,461 Connection to database has been established successfully
+2022-02-01 22:46:18,489 Connection to database has been established successfully
+2022-02-01 22:46:18,516 Connection to database has been established successfully
+2022-02-01 22:46:18,541 The --reload flag should not be used in production on Windows.
+2022-02-01 22:46:18,542 Using selector: SelectSelector
+2022-02-01 22:46:18,575 Started server process [20548]
+2022-02-01 22:46:18,576 Waiting for application startup.
+2022-02-01 22:46:18,576 Application startup complete.
+2022-02-01 22:46:36,241 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:46:39,347 Connection to database has been established successfully
+2022-02-01 22:46:39,372 Connection to database has been established successfully
+2022-02-01 22:46:39,402 Connection to database has been established successfully
+2022-02-01 22:46:39,427 Connection to database has been established successfully
+2022-02-01 22:46:39,449 Connection to database has been established successfully
+2022-02-01 22:46:39,474 The --reload flag should not be used in production on Windows.
+2022-02-01 22:46:39,475 Using selector: SelectSelector
+2022-02-01 22:46:39,512 Started server process [14000]
+2022-02-01 22:46:39,512 Waiting for application startup.
+2022-02-01 22:46:39,512 Application startup complete.
+2022-02-01 22:47:34,420 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:47:37,409 Connection to database has been established successfully
+2022-02-01 22:47:37,434 Connection to database has been established successfully
+2022-02-01 22:47:37,462 Connection to database has been established successfully
+2022-02-01 22:47:37,487 Connection to database has been established successfully
+2022-02-01 22:47:37,511 Connection to database has been established successfully
+2022-02-01 22:47:37,548 The --reload flag should not be used in production on Windows.
+2022-02-01 22:47:37,549 Using selector: SelectSelector
+2022-02-01 22:47:37,589 Started server process [13628]
+2022-02-01 22:47:37,589 Waiting for application startup.
+2022-02-01 22:47:37,590 Application startup complete.
+2022-02-01 22:49:02,213 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:49:04,920 Connection to database has been established successfully
+2022-02-01 22:49:04,944 Connection to database has been established successfully
+2022-02-01 22:49:04,970 Connection to database has been established successfully
+2022-02-01 22:49:04,995 Connection to database has been established successfully
+2022-02-01 22:49:05,017 Connection to database has been established successfully
+2022-02-01 22:49:05,041 The --reload flag should not be used in production on Windows.
+2022-02-01 22:49:05,041 Using selector: SelectSelector
+2022-02-01 22:49:05,075 Started server process [19348]
+2022-02-01 22:49:05,075 Waiting for application startup.
+2022-02-01 22:49:05,076 Application startup complete.
+2022-02-01 22:50:24,399 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:50:27,148 Connection to database has been established successfully
+2022-02-01 22:50:27,177 Connection to database has been established successfully
+2022-02-01 22:50:27,207 Connection to database has been established successfully
+2022-02-01 22:50:27,236 Connection to database has been established successfully
+2022-02-01 22:50:27,257 Connection to database has been established successfully
+2022-02-01 22:50:27,283 The --reload flag should not be used in production on Windows.
+2022-02-01 22:50:27,283 Using selector: SelectSelector
+2022-02-01 22:50:27,321 Started server process [26388]
+2022-02-01 22:50:27,322 Waiting for application startup.
+2022-02-01 22:50:27,322 Application startup complete.
+2022-02-01 22:52:43,726 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:52:46,809 Connection to database has been established successfully
+2022-02-01 22:52:46,837 Connection to database has been established successfully
+2022-02-01 22:52:46,863 Connection to database has been established successfully
+2022-02-01 22:52:46,891 Connection to database has been established successfully
+2022-02-01 22:52:46,932 Connection to database has been established successfully
+2022-02-01 22:52:46,954 The --reload flag should not be used in production on Windows.
+2022-02-01 22:52:46,955 Using selector: SelectSelector
+2022-02-01 22:52:46,991 Started server process [24720]
+2022-02-01 22:52:46,992 Waiting for application startup.
+2022-02-01 22:52:46,992 Application startup complete.
+2022-02-01 22:53:08,161 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:53:11,624 Connection to database has been established successfully
+2022-02-01 22:53:11,651 Connection to database has been established successfully
+2022-02-01 22:53:11,676 Connection to database has been established successfully
+2022-02-01 22:53:11,701 Connection to database has been established successfully
+2022-02-01 22:53:11,723 Connection to database has been established successfully
+2022-02-01 22:53:11,746 The --reload flag should not be used in production on Windows.
+2022-02-01 22:53:11,747 Using selector: SelectSelector
+2022-02-01 22:53:11,786 Started server process [20136]
+2022-02-01 22:53:11,787 Waiting for application startup.
+2022-02-01 22:53:11,787 Application startup complete.
+2022-02-01 22:57:03,333 StatReload detected file change in 'Tests\test_wishlist.py'. Reloading...
+2022-02-01 22:57:05,159 Connection to database has been established successfully
+2022-02-01 22:57:05,180 Connection to database has been established successfully
+2022-02-01 22:57:05,197 Connection to database has been established successfully
+2022-02-01 22:57:05,213 Connection to database has been established successfully
+2022-02-01 22:57:05,231 Connection to database has been established successfully
+2022-02-01 22:57:05,252 The --reload flag should not be used in production on Windows.
+2022-02-01 22:57:05,253 Using selector: SelectSelector
+2022-02-01 22:57:05,275 Started server process [23632]
+2022-02-01 22:57:05,275 Waiting for application startup.
+2022-02-01 22:57:05,275 Application startup complete.
