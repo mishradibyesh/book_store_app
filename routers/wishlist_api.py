@@ -61,7 +61,7 @@ def delete_from_wishlist(wishlist: Wishlist, token: str = Header(None)):
     try:
         book_id = funct.delete_wishlist(token,wishlist.book_id)
         logging.info(f"Successfully deleted  Wishlist with book id{book_id}")
-        return {"status": 200, "message": "Successfully deleted  book from cart for", "book id": book_id}
+        return {"status": 200, "message": "Successfully deleted  book from wishlist for", "book id": book_id}
     except Exception as e:
         logging.error(f"Error: {e}")
         return {"status": 404, "message": f"Error : {e}"
